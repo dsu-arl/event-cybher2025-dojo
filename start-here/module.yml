@@ -1,0 +1,11 @@
+name: Start Here!
+challenges:
+- id: using-the-gui-desktop
+  name: Using the GUI Desktop
+  allow_privileged: false
+- id: pasting-into-the-desktop
+  name: Pasting into the Desktop
+  allow_privileged: false
+- id: running-challenges
+  name: Running Challenges
+  allow_privileged: false

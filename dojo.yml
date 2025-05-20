@@ -1,0 +1,8 @@
+id: cybher-ctf
+name: CybHer CTF
+award:
+  emoji: ✨
+modules:
+- id: start-here
+  name: Start Here!
+type: summercamp
