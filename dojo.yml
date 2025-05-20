@@ -5,4 +5,6 @@ award:
 modules:
 - id: start-here
   name: Start Here!
+- id: linux
+  name: Linux
 type: summercamp
