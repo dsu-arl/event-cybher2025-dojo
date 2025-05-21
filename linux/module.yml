@@ -15,6 +15,12 @@ challenges:
 - id: cattingfiles
   name: Display file contents in the terminal.
   allow_privileged: false
+- id: nanocreatefile
+  name: Create files with nano.
+  allow_privileged: false
+- id: nanoeditfile
+  name: Edit files with nano.
+  allow_privileged: false
 - id: findingfiles
   name: Locate files on the Linux filesystem.
   allow_privileged: false
@@ -26,10 +32,4 @@ challenges:
   allow_privileged: false
 - id: commandflags
   name: Learn about command flags.
-  allow_privileged: false
-- id: nanocreatefile
-  name: Create files with nano.
-  allow_privileged: false
-- id: nanoeditfile
-  name: Edit files with nano.
   allow_privileged: false
