@@ -4,7 +4,7 @@ from os import makedirs, listdir, chmod
 from os.path import exists, join
 
 USERFILE = '/home/hacker/my_nano_file.txt'
-USERTEXT = "When one does not love too much, one does not love enough."
+USERTEXT = "CybHer 2025!
 HISTORY = '/home/hacker/.bash_history'
 
 def main():
