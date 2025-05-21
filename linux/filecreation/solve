@@ -24,9 +24,10 @@ def main():
         with no contents in it.
 
         To pass this first part you must navigate to
-        the '/tmp/starthere/' directory and then
-        create a file in that directory with whatever
-        name you want to give it.
+        the '/tmp/starthere/' directory (using 'cd') 
+        and then create a file in that directory with 
+        whatever name you want to give it. You can run 
+        'ls' if you'd like to see your new file.
 
         After that, run '/challenge/solve' again to 
         move on!
