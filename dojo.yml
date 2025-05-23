@@ -7,4 +7,6 @@ modules:
   name: Start Here!
 - id: linux
   name: Linux
+- id: pwn
+  name: pwn
 type: summercamp

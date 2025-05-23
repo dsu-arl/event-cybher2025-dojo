@@ -1,0 +1,5 @@
+name: pwn
+challenges:
+- id: password-cracking
+  name: Password Cracking
+  allow_privileged: false
