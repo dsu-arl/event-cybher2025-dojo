@@ -94,6 +94,60 @@ def check_two():
     return False
 
 def print_one_instructions():
+
+    print("""
+    *** MISSION: PASSWORD RECOVERY ***
+
+    You’ve just been recruited as a junior agent in the
+    Digital Detective Agency.
+
+    Your first assignment: Locate a secret password buried
+    somewhere deep inside a large, mysterious file. It’s
+    your job to track it down — fast.
+
+    Sometimes, these files are huge, and scrolling through
+    thousands of lines isn't exactly efficient.
+
+    That’s why we use a powerful tool called 'grep' — it helps
+    you search for a specific string (a word or phrase) inside
+    a file.
+
+    Here's how you use it:
+
+        grep {string_to_search_for} {file_to_look_in}
+
+    Example:
+        grep secret /tmp/myfile.txt
+
+    This command will scan the file for the word "secret" and
+    show the whole line where it appears. Slick, right?
+
+    Now it’s your turn.
+
+    Your target file is:
+        /tmp/one/data.txt
+
+    Inside this file is a line that looks like:
+
+        Password: {supersecretpassword}
+
+    Your job is to find that password.
+
+    Try this command to start your hunt:
+        grep Password /tmp/one/data.txt
+
+    When you find the correct line, copy the password — that’s
+    your key.
+
+    Then, complete your mission by running:
+        /challenge/solve
+
+    Paste in the password to unlock success.
+
+    Good luck, Agent. The mission is yours.
+""")
+
+
     print("""
     Sometimes you have large files on your computer
     and you only want to find a specific thing inside
