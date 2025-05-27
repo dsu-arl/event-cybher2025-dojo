@@ -1,1 +1,8 @@
 name: Cryptography
+challenges:
+- id: substitution-cipher-encryption
+  name: Substitution Cipher Encoding
+  allow_privileged: false
+- id: substitution-cipher-decryption
+  name: Substitution Cipher Decoding
+  allow_privileged: false
