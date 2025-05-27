@@ -1,4 +1,4 @@
-#!/usr/bin/exec-suid --real -- /usr/bin/python -I
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import sys
 sys.path.append('/challenge')
 
@@ -10,6 +10,37 @@ def print_flag():
         print("Error: Flag file not found.")
 
 # Add your imports and other code below here
+import random
+
+morse_dict = {
+    'A': '.-',    'B': '-...',  'C': '-.-.',  'D': '-..',   'E': '.',
+    'F': '..-.',  'G': '--.',   'H': '....',  'I': '..',    'J': '.---',
+    'K': '-.-',   'L': '.-..',  'M': '--',    'N': '-.',    'O': '---',
+    'P': '.--.',  'Q': '--.-',  'R': '.-.',   'S': '...',   'T': '-',
+    'U': '..-',   'V': '...-',  'W': '.--',   'X': '-..-',  'Y': '-.--',
+    'Z': '--..'
+}
+
+
+def generate_word() -> str:
+    word_bank = [
+        'TIGER', 'HORSE', 'EAGLE', 'SALMON', 'MAPLE',
+        'VILLA', 'TRUCK', 'NOVEL', 'PENCIL', 'STOOL',
+        'BENCH', 'SOLAR', 'LUNAR', 'COMET', 'STORM',
+        'CREEK', 'RIDGE', 'OCEAN', 'TRAIL', 'CLOUD'
+    ]
+    return random.choice(word_bank)
+
+
+def encrypt_word(word: str) -> str:
+    global morse_dict
+    encrypted_word = ''
+    for c in word:
+        encrypted_word += (morse_dict[c] + ' ')
+
+    return encrypted_word.strip()
+
+
 def main():
     print('Welcome to the Morse Code Encoding Challenge!')
     print('NOTE: Separate each encoded letter with a space like the example in the challenge description.')
@@ -18,6 +49,11 @@ def main():
     print('A .-    B -...  C -.-.  D -..   E .     F ..-.  G --.   H ....  I ..    J .---')
     print('K -.-   L .-..  M --    N -.    O ---   P .--.  Q --.-  R .-.   S ...   T -')
     print('U ..-   V ...-  W .--   X -..-  Y -.--  Z --..')
+
+    word_to_encrypt = generate_word()
+    answer = encrypt_word(word_to_encrypt)
+    print('Your word to encrypt:', word_to_encrypt)
+
 
 if __name__ == '__main__':
     main()
