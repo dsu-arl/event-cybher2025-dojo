@@ -1,11 +1,11 @@
 ## What is Linux?
 
-*Linux* is an operating system — like Windows or macOS — that helps your computer run and lets you interact with files, programs, and hardware. It's used all over the world in servers, phones, computers, and even robots!
+**Linux** is an operating system — like Windows or macOS — that helps your computer run and lets you interact with files, programs, and hardware. It's used all over the world in servers, phones, computers, and even robots!
 Many programmers, scientists, and developers like Linux because it's free, powerful, and customizable.
 
 ## What is the Command Line?
 
-The *command line* (also called the terminal or shell) is a way to control your computer by typing instructions instead of clicking on buttons.
+The **command line** (also called the terminal or shell) is a way to control your computer by typing instructions instead of clicking on buttons.
 You type a command, press Enter, and the computer follows your instructions — like opening a file, moving something, or searching for a word. It might look plain, but it's a powerful tool!
 
 ## Linux Commands Cheat Sheet
