@@ -10,39 +10,39 @@ You type a command, press Enter, and the computer follows your instructions — 
 
 ## Linux Commands Cheat Sheet
 
-`cd` - change directory (move into a folder)  
+- `cd` - change directory (move into a folder)  
     - `cd [folder_path]`  
     - Use `cd ..` to go up one folder level
 
-`ls` - list files and folders in the current directory  
+- `ls` - list files and folders in the current directory  
 
-`pwd` - print working directory (shows where you are)  
+- `pwd` - print working directory (shows where you are)  
     - Shows the full path to your current folder
 
-`touch` - create a new empty file  
+- `touch` - create a new empty file  
     - `touch [filename]`  
 
-`rm` - remove (delete) a file  
+- `rm` - remove (delete) a file  
     - `rm [filename]`  
     - Be careful — you can never get these files back!
 
-`mv` - move or rename a file  
+- `mv` - move or rename a file  
     - `mv [source] [destination]`  
     - Use to rename: `mv oldname.txt newname.txt`
 
-`cp` - copy a file  
+- `cp` - copy a file  
     - `cp [source] [destination]`  
     - Keeps the original file and makes a copy!
 
-`cat` - show the contents of a file  
+- `cat` - show the contents of a file  
     - `cat [filename]`  
 
-`nano` - open a simple text editor to write or edit a file  
+- `nano` - open a simple text editor to write or edit a file  
     - `nano [filename]`  
     - Will create a new file or open an existing one, depending on the filename you use
     - Use `Ctrl + X` -> `Y` -> `Enter` to save and close
 
-`grep` - search for text inside a file  
+- `grep` - search for text inside a file  
     - `grep [word_to_find] [filename]`  
     - Use `*` to search all files in a folder: `grep word *`
 
