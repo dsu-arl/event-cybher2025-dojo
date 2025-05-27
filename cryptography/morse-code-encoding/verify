@@ -1,0 +1,23 @@
+#!/usr/bin/exec-suid --real -- /usr/bin/python -I
+import sys
+sys.path.append('/challenge')
+
+def print_flag():
+    try:
+        with open("/flag", "r") as f:
+            print(f.read())
+    except FileNotFoundError:
+        print("Error: Flag file not found.")
+
+# Add your imports and other code below here
+def main():
+    print('Welcome to the Morse Code Encoding Challenge!')
+    print('NOTE: Separate each encoded letter with a space like the example in the challenge description.')
+
+    print('Use the following table to assist you with encoding your message:')
+    print('A .-    B -...  C -.-.  D -..   E .     F ..-.  G --.   H ....  I ..    J .---')
+    print('K -.-   L .-..  M --    N -.    O ---   P .--.  Q --.-  R .-.   S ...   T -')
+    print('U ..-   V ...-  W .--   X -..-  Y -.--  Z --..')
+
+if __name__ == '__main__':
+    main()
