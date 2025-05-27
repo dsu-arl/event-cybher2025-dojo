@@ -107,6 +107,9 @@ def print_one_instructions():
     you will use to run the command is this:
 
         'grep {string_to_search_for} {file_to_look_in}'
+        
+    For example: 'grep secret /tmp/myfile.txt'
+    would look for the word "secret" in myfile.txt.
 
     grep will display the entire line of text, where
     the input string is found.
@@ -114,8 +117,9 @@ def print_one_instructions():
     For this challenge I want you to try and find a 
     password within the file '/tmp/one/data.txt'.
 
-    The password resides in the file and looks like
-    this:
+    The password resides in this file and the line 
+    that it is on looks like this:
+
         'Password: {supersecretpassword}'
 
     Once you are done, copy the password, run 
@@ -132,26 +136,34 @@ def print_two_instructions():
     remember which one contains your password!
 
     Luckily for us, 'grep' can also search multiple
-    within a directory!
+    files within a directory!
 
     If you run 'ls /tmp/two' you will see a directory
     that has many text files. Your goal is to find the
-    one that has the Password!
+    one that has the Password! The file format is the 
+    same as before:
+
+        'Password: {supersecretpassword}'
 
     Your 'grep' command will be similar to the first
     challenge, however, you will have to actually
-    change directories into '/tmp/two'.
+    change directories into '/tmp/two'. (Use cd!)
 
     Once there, you will run grep as such:
 
         'grep {string_to_search_for} *
 
     The asterisk is important because it says "look
-    through all the files in my current directory!
+    through all the files in my current directory!"
+    
+    grep will show you which file the Password is in, 
+    and will display the entire line in this format:
+
+        'file_name: line where string was found'
 
     Once you have the name of the file that the
     password is in, run '/challenge/solve' and 
-    paste it in to get your flag!
+    enter it to get your flag!
 
     """)
 

@@ -21,11 +21,12 @@ challenges:
 - id: nanoeditfile
   name: Edit files with nano.
   allow_privileged: false
-- id: findingfiles
-  name: Locate files on the Linux filesystem.
-  allow_privileged: false
+# Hiding this challenge for cybher camp
+#- id: findingfiles
+#  name: Locate files on the Linux filesystem.
+#  allow_privileged: false
 - id: findingcontent
-  name: Locate strings within files on Linux.
+  name: Find the password! (Searching files)
   allow_privileged: false
 - id: advanceddirectories
   name: Advanced Directory Techniques.
