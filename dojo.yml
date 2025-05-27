@@ -1,5 +1,6 @@
 id: cybher-ctf
 name: CybHer CTF
+image: nickm543/pc-cybher-dojo
 award:
   emoji: ✨
 modules:
