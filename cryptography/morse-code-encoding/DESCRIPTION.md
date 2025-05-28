@@ -21,7 +21,7 @@ O → ---
 ```
 So, "HELLO" in Morse code is:
 
-`.... .- .-.. .-.. ---`
+`.... . .-.. .-.. ---`
 
 ### Challenge Steps
 1. Start the challenge
