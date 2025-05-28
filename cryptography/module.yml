@@ -30,3 +30,6 @@ challenges:
 - id: binary-decoding
   name: Binary Decoding
   allow_privileged: false
+- id: morse-code-encoding
+  name: Morse Code - Encoding
+  allow_privileged: false
