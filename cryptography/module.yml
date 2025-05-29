@@ -33,3 +33,6 @@ challenges:
 - id: morse-code-encoding
   name: Morse Code - Encoding
   allow_privileged: false
+- id: morse-code-decoding
+  name: Morse Code - Decoding
+  allow_privileged: false
