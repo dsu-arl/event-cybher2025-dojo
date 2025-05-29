@@ -10,4 +10,6 @@ modules:
   name: Linux
 - id: cryptography
   name: Cryptography
+- id: web
+  name: Web
 type: summercamp
