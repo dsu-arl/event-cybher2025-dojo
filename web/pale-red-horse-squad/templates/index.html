@@ -40,11 +40,14 @@
     </style>
 </head>
 <body>
+    {% if msg is defined %}
+        <script>alert("{{ msg }}")</script>
+    {% endif %}
     <div class="container">
         <div class="form-wrapper">
-            <p>Enter the super secret phrase:</p>
+            <p>Enter the super secret entry phrase:</p>
             <form id="checkPass" action="/check-pass" method="post">
-                <input type="text" name="pass" placeholder="Enter pass phrase: " required>
+                <input type="text" name="pass" placeholder="Password: " required>
                 <!-- (DEVELOPER NOTE) the password is: "🦩👚🌸🐎🐎🐎P.R.H.S. RULES!!!!!!!!!" -->
                 <button type="submit">Submit</button>
             </form>
