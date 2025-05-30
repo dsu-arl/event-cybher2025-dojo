@@ -1,5 +1,7 @@
 id: cybher-ctf
 name: CybHer CTF
+image: nickm543/pc-cybher-dojo
+type: summercamp
 award:
   emoji: ✨
 modules:
@@ -9,4 +11,8 @@ modules:
   name: Linux
 - id: forensics
   name: Forensics
-type: summercamp
+- id: cryptography
+  name: Cryptography
+- id: web
+  name: Web
+
