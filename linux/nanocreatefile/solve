@@ -21,6 +21,7 @@ def main():
             exit(0)
 
     with open('/flag', 'r') as fObj2:
+        print("Great work! Here's your flag:")
         print(fObj2.read())
         exit(0)
 
