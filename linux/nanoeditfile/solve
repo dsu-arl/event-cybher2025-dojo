@@ -10,7 +10,7 @@ def main():
     if exists(USERFILE):
         with open(USERFILE, 'r') as fObj:
             data = fObj.read()
-            if USERTEXT.lower() in data.lower():
+            if USERTEXT.lower() == data.lower():
                 print("The file still contains the original text! Please change it!")
                 exit(0)
             else:
