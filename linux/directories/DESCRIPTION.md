@@ -16,6 +16,10 @@ As an example, if you're a Linux user with the account name 'wkiffin', your home
 
 Understanding this structure helps you know where to find your files, system settings, and applications on Linux.
 
-In this challenge you will be learning how to traverse the Linux filesystem with the `cd` command, as well as listing directory content with `ls`. You can start the VSCode workspace, open a terminal, and run `/challenge/solve` to get your instructions.
+This challenge will continue using the `cd` and `ls` commands as you traverse the Linux filesystem. 
 
-This means you're running a file named 'solve' found within the 'challenge' directory that is held within the root '/' directory!
+## Challenge Steps
+1. Start the challenge and open a terminal
+2. Run `/challenge/solve` (This means you're running a file named 'solve' found within the 'challenge' directory that is held within the root '/' directory!)
+3. Follow the instructions given in `/challenge/solve` (It may be a bit tricky! Read all instructions carefully!)
+4. Submit the flag once you find it!
