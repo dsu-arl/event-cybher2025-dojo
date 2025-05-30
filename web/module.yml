@@ -3,3 +3,6 @@ challenges:
 - id: pale-red-horse-squad
   name: Pale Red Horse Squad
   allow_privileged: false
+- id: swiss-army-button
+  name: Swiss Army Button
+  allow_privileged: false
