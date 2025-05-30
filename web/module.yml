@@ -1,0 +1,5 @@
+name: Web
+challenges:
+- id: pale-red-horse-squad
+  name: Pale Red Horse Squad
+  allow_privileged: false
