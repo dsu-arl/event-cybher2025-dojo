@@ -22,14 +22,11 @@ def main():
         exit(0)
     
 
-    with open(HISTORY, 'r') as fObj:
-        for x in fObj.readlines():
-            if 'nano' in x.split(' ')[0].strip():
-                with open('/flag', 'r') as fObj2:
-                    print(fObj2.read())
-                    exit(0)
+    with open('/flag', 'r') as fObj2:
+        print("Here's your flag:")
+        print(fObj2.read())
+        exit(0)
 
-    print("It looks like you didn't use nano to do this challenge. Please use 'nano'.")
 
 
 if __name__ == "__main__":
