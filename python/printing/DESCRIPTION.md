@@ -8,6 +8,7 @@ The computer will follow all of your instructions in order from top to bottom!
 The first thing we are going to learn is how to print information to the screen, so you can see what your program is doing. In Python, to print to the screen, we will use the `print()` function (we will cover functions in more detail later).
 
 When we use the `print()` function, the message that you want to print must be in quotes. Later, we will show you how to print other things too!
+The `print()` function will always look something like this: 
 ```python
 print("STRING MESSAGE TO PRINT")
 ```
