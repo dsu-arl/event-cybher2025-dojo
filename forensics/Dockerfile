@@ -21,4 +21,4 @@ RUN chmod 6755 /usr/bin/exec-suid
 
 USER hacker
 
-COPY ChallengeFiles /home
+COPY ChallengeFiles /home/hacker
