@@ -17,6 +17,7 @@ You can replace "my_program.py" with any python file you'd like to run.
 This challenge requires you to run a python file we wrote for you!
 
 1. Start the challenge and open a terminal
-2. Run the python program named `run_me.py` in your home directory to receive your password
-3. Run `/challenge/verify` and enter the password
-4. Submit your flag! 
+2. Run `ls` in your home directory, and you should see a python file named `run_me.py`
+3. Use `python3` to run this file and receive your password
+4. Run `/challenge/verify` and enter the password
+5. Submit your flag! 
