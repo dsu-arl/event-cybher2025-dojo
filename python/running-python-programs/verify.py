@@ -18,6 +18,7 @@ def main():
         print_flag()
     else:
         print("Wrong password!")
+        print("Did you run the python file? Try 'python3 run_me.py'")
 
 if __name__ == "__main__":
     main()

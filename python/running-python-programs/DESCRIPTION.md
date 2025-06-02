@@ -14,8 +14,9 @@ First, you write the program in a file — usually ending with `.py` (like `my_p
 
 Then, you run the program using Python.
 
-From the terminal, you can type: `python3 my_program.py` 
-And that’s it! The computer will follow the steps in your program and show the results.
+From the terminal, you can type: 
+```python3 my_program.py```
+And press Enter! The computer will follow the steps in your program and show the results.
 
 Note that `python3` tells the computer what language your program is using, and how to interpret it.
 You can also replace "my_program.py" with any python file. 
@@ -24,6 +25,6 @@ You can also replace "my_program.py" with any python file.
 This challenge requires you to run a python file we wrote for you!
 
 1. Start the challenge and open a terminal
-2. Run the python program named `run_me.py` in your homedirectory to receive your password
+2. Run the python program named `run_me.py` in your home directory to receive your password
 3. Run `/challenge/verify` and enter the password
 4. Submit your flag! 
