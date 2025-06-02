@@ -1,10 +1,10 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import stat
 from os import makedirs, listdir, chmod
 from os.path import exists, join
 
 USERFILE = '/home/hacker/my_nano_file.txt'
-USERTEXT = "When one does not love too much, one does not love enough."
+USERTEXT = "CybHer 2025!"
 HISTORY = '/home/hacker/.bash_history'
 
 def main():
@@ -20,15 +20,10 @@ def main():
             print("Open the file by typing 'nano my_nano_file.txt', and try again!")
             exit(0)
 
-    with open(HISTORY, 'r') as fObj:
-        for x in fObj.readlines():
-            if 'nano' in x.split(' ')[0].strip():
-                with open('/flag', 'r') as fObj2:
-                    print(fObj2.read())
-                    exit(0)
-
-    print("It looks like you didn't use nano to do this challenge. Please use 'nano'.")
-
+    with open('/flag', 'r') as fObj2:
+        print("Great work! Here's your flag:")
+        print(fObj2.read())
+        exit(0)
 
 if __name__ == "__main__":
     main()

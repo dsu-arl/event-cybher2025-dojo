@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import stat
 import random
 from os import makedirs, chmod
@@ -95,64 +95,83 @@ def check_two():
 
 def print_one_instructions():
     print("""
-    Sometimes you have large files on your computer
-    and you only want to find a specific thing inside
-    it.
+    *** MISSION: PASSWORD RECOVERY ***
 
-    In the Linux terminal, we can search for particular
-    strings within a file, rather than looking through
-    thousands of lines to try and find what we need.
+    You’ve just been recruited as a junior agent in the
+    Digital Detective Agency. Your first assignment: 
+    Locate a secret password buried somewhere deep inside 
+    a large, mysterious file. It’s your job to track it down.
 
-    To do this, we use the command 'grep'. The syntax
-    you will use to run the command is this:
+    Sometimes, these files are huge, and scrolling through
+    thousands of lines isn't exactly efficient. That’s why we 
+    use a powerful tool called 'grep' — it helps you search 
+    for a specific string (a word or phrase) inside a file.
 
-        'grep {string_to_search_for} {file_to_look_in}'
+    Here's how you use it:
+        grep {string_to_search_for} {file_to_look_in}
 
-    grep will display the entire line of text, where
-    the input string is found.
+    Example:
+        grep secret /tmp/myfile.txt
 
-    For this challenge I want you to try and find a 
-    password within the file '/tmp/one/data.txt'.
+    This command will scan myfile.txt for the word "secret" and
+    show the whole line where it appears. 
 
-    The password resides in the file and looks like
-    this:
-        'Password: {supersecretpassword}'
+    Now it’s your turn. Your target file is:
+        /tmp/one/data.txt
 
-    Once you are done, copy the password, run 
-    '/challenge/solve', and then paste in the password
-    you found!
+    Inside this file is a line that looks like:
+        Password: {supersecretpassword}
 
+    Your job is to find that password. When you find the correct 
+    line, copy the password. Then, run:
+        /challenge/solve
+
+    Paste in the password to unlock your next instructions.
+    Good luck, Agent.
     """)
 
 def print_two_instructions():
 
     print("""
-    Maybe you don't have a very large file to sift 
-    through, but you have A LOT of files! You don't 
-    remember which one contains your password!
+    *** MISSION PART TWO: THE PASSWORD FILE ***
 
-    Luckily for us, 'grep' can also search multiple
-    within a directory!
+    You've found one password... but now there’s a twist.
+    This time, you’re not dealing with one huge file — you're
+    facing a whole collection of files, and you have no idea
+    which one is hiding the password!
 
-    If you run 'ls /tmp/two' you will see a directory
-    that has many text files. Your goal is to find the
-    one that has the Password!
+    But don’t panic. You’ve still got your secret weapon: 'grep'.
+    The cool thing about 'grep' is that it can search through
+    **multiple files at once**. That means you don’t have to
+    search each one individually.
 
-    Your 'grep' command will be similar to the first
-    challenge, however, you will have to actually
-    change directories into '/tmp/two'.
+    First, run this command to see your next target:
+        ls /tmp/two
 
-    Once there, you will run grep as such:
+    You’ll see that the /tmp/two directory it packed with text files. 
+    Somewhere in one of these files is a line that looks like this:
+        Password: {supersecretpassword}
 
-        'grep {string_to_search_for} *
+    Your mission is to find **which file** contains the password.
 
-    The asterisk is important because it says "look
-    through all the files in my current directory!
+    To do this, you'll first need to change directories into the 
+    folder with all the files:
+        cd /tmp/two
+    
+    You also need to know a new way to use grep:
+        grep {string_to_search_for} *
 
-    Once you have the name of the file that the
-    password is in, run '/challenge/solve' and 
-    paste it in to get your flag!
+    That little asterisk * means "search through all files
+    in the current directory."
 
+    When 'grep' finds the target string, it will tell you exactly 
+    where it came from, in this format:
+        file_name: line with target string
+
+    Once you know which file contains the password, run:
+        /challenge/solve
+
+    Then enter the filename you found to receive the flag!
     """)
 
 def main():
