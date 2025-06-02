@@ -1,7 +1,10 @@
-#!/opt/pwn.college/bash
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 
-# art from https://emojicombos.com/kick-ascii-art
-cat <<END | while read LINE; do echo "$LINE"; sleep 0.1; done
+import time
+import sys
+
+# Art from https://emojicombos.com/kick-ascii-art
+art = """
 ⠀⢀⣶⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠘⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⢀⣤⡀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠈⠙⠋⢁⣀⣠⣤⣀⣀⣀⣰⣿⠟⠁⠀⠀⠀⠀⠀⠀
@@ -15,14 +18,24 @@ cat <<END | while read LINE; do echo "$LINE"; sleep 0.1; done
 ⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀TO⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀THE⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢿⣿⠁⠀DOJO⠀⠀⠀⠀⠀⠀⠀
+"""
 
-END
+# Print the ASCII art line by line with delay
+for line in art.strip().split('\n'):
+    print(line)
+    time.sleep(0.1)
 
-for i in {1..10}
-do
-	echo -n "."
-	sleep 0.1
-done
-echo
-echo "Congratulations! Your flag is:"
-cat /flag
+# Print the dots with delay
+for _ in range(10):
+    print(".", end="", flush=True)
+    time.sleep(0.1)
+
+print("\nCongratulations! Your flag is:")
+
+# Open and read the flag file
+try:
+    with open('/flag', 'r') as fObj:
+        print(fObj.read())
+except FileNotFoundError:
+    print("[ERROR] /flag not found.")
+
