@@ -10,9 +10,14 @@ def print_flag():
         print("Error: Flag file not found.")
 
 def main():
-    print("You ran your first python program!")
-    print("Here is your flag: ")
-    print_flag()
+    password = input("Enter the password found in run_me.py: ")
+
+    if password == "pythonrocks!":
+        print("Password correct!")
+        print("Here is your flag: ")
+        print_flag()
+    else:
+        print("Wrong password!")
 
 if __name__ == "__main__":
     main()

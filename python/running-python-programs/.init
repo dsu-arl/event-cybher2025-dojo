@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cat << EOF > /home/hacker/run_me.py
+print("You ran your first python file!")
+print("You'll need this password: pythonrocks!")
+print("Run /challenge/verify and enter the password to receive your flag!")
+EOF
+
