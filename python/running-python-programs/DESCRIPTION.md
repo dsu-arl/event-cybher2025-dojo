@@ -16,6 +16,8 @@ Then, you run the program using Python.
 
 From the terminal, you can type: 
 ```python3 my_program.py```
+
+
 And press Enter! The computer will follow the steps in your program and show the results.
 
 Note that `python3` tells the computer what language your program is using, and how to interpret it.
