@@ -26,7 +26,7 @@ def run_and_check_script(user_script_path):
 
     # Count number of newlines, they should print at least 3 things
     if stdout.count('\n') < 3:
-        print(f"Error: Make sure that you are printing 3 different varaibles!")
+        print(f"Error: Make sure that you are printing 3 different variables!")
         exit()
 
     print_flag()
