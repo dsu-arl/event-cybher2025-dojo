@@ -34,7 +34,7 @@ Now the variables are not assigned a specific value until runtime.
 Every time this program is run different values can be input - our program has become truly interactive.
 
 You can copy the code above and see for yourself what the `input()` prompt looks like! 
-You may notice that the program doesn't seem to be doing much of anything - until you type a word and hit Enter. This brings up a couple of questions...
+You may notice that the program doesn't seem to be doing much of anything - until you type a word and hit Enter. This brings up an important question...
 
 ***How does the user know the program is waiting for input?***
 The user will have no idea that the program is waiting for input. 
