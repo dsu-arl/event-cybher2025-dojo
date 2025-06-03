@@ -1,5 +1,5 @@
 name: Forensics
-image: shawdynasty/cyberher-dojo-forensics
+#image: shawdynasty/cyberher-dojo-forensics
 challenges:
 - id: google-dorks
   name: Google Dorks
