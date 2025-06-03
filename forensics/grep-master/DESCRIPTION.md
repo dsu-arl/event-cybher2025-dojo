@@ -5,3 +5,5 @@ The grep command is a tool in linux that is used to search for specific text wit
 The files that you will be working on are in the /challenge directory.
 
 Example command: grep flag <filename>.txt
+
+Once you complete at finding the flag with grep make sure to run the /challenge/verify script in the challenge folder.
