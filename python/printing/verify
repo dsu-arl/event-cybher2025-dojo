@@ -9,6 +9,7 @@ from pacePythonTester import ExecutionAgent as ex
 def print_flag():
     try:
         with open("/flag", "r") as f:
+            print("Good job! Here's your flag: ")
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
