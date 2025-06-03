@@ -13,5 +13,3 @@ ADD --chown=0:0 http://github.com/pwncollege/exec-suid/releases/latest/download/
 RUN chmod 6755 /usr/bin/exec-suid
  
 USER hacker
-
-COPY unlock-the-vault/vault.zip /opt

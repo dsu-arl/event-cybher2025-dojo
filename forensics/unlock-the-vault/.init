@@ -1,3 +1,0 @@
-#/bin/bash
-
-chown hacker: /opt/vault.zip
