@@ -39,3 +39,6 @@ challenges:
 - id: base64-encoding
   name: Base64 - Encoding
   allow_privileged: false
+- id: base64-decoding
+  name: Base64 - Decoding
+  allow_privileged: false
