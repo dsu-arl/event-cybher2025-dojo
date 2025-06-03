@@ -3,3 +3,6 @@ challenges:
 - id: password-cracking
   name: Password Cracking
   allow_privileged: false
+- id: buffer-overflow
+  name: buffer-overflow
+  allow_privileged: false
