@@ -19,9 +19,9 @@ For example, if we have a file named `test.py`, we can put the following content
 print("My Output!!")
 ```
 
-We can run this file by using `python3`:
+We can run this file by using `python`:
 ```commandline
-python3 test.py
+python test.py
 ```
 
 And then we will see this output displayed on the screen:
@@ -47,9 +47,9 @@ print("GREETINGS USER!") # Another Comment, do you think this is a good greeting
 You don't **need** to use comments, but we may include them in challenge descriptions, and they can be helpful for making notes in your programs :)
 
 ## Challenge Steps
-Use python to print the text 'Hello World!' to the screen.
+Use python to print the text 'Hello World!' to the screen. We will use the `/challenge/verify` to test your program and validate that it works properly.
 
 1. Use `nano` to create a new file, named whatever you want, but it must have the file extension `.py` (ex. `my_first_program.py`)
 2. Use the `print()` function to print the text `Hello World!`
-3. Test your code with `python3 yourFile.py`
+3. Test your code with `python yourFile.py`
 4. Verify your solution with `/challenge/verify yourFile.py` to get your flag!
