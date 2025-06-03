@@ -31,7 +31,7 @@ def run_and_check_script(user_script_path):
         exit()
 
     # Also, verify that they used the text .format in the file
-    if not ex.parse_script(user_script_path, "\.format\("):
+    if not ex.parse_script(user_script_path, r"\.format\("):
         print(f"Error: Make sure that you are using .format to print your string!")
         exit()
 
