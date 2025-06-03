@@ -3,7 +3,10 @@ FROM ubuntu
 USER root
 RUN apt update
 RUN apt install python3.12 -y
-RUN apt install nano -y
+RUN apt update && apt install -y \
+    steghide
+
+RUN apt install -y unrar
 
 RUN <<EOF
   if id ubuntu; then userdel -f -r ubuntu; fi
@@ -17,3 +20,4 @@ EOF
 ADD --chown=0:0 http://github.com/pwncollege/exec-suid/releases/latest/download/exec-suid /usr/bin/exec-suid
 RUN chmod 6755 /usr/bin/exec-suid
  
+USER hacker
