@@ -47,7 +47,7 @@ print("GREETINGS USER!") # Another Comment, do you think this is a good greeting
 You don't **need** to use comments, but we may include them in challenge descriptions, and they can be helpful for making notes in your programs :)
 
 ## Challenge Steps
-Use python to print the text 'Hello World!' to the screen. We will use the `/challenge/verify` to test your program and validate that it works properly.
+Use python to print the text `Hello World!` to the screen. We will use the `/challenge/verify` to test your program and validate that it works properly.
 
 1. Use `nano` to create a new file, named whatever you want, but it must have the file extension `.py` (ex. `my_first_program.py`)
 2. Use the `print()` function to print the text `Hello World!`
