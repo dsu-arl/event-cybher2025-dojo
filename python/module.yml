@@ -1,0 +1,15 @@
+name: Python Input and Output
+challenges:
+- id: running-python-programs
+  name: Running Python Programs
+  allow_privileged: false
+- id: printing
+  name: Printing Text
+- id: variables
+  name: Variables
+- id: format-print
+  name: Format Printing
+- id: user-input
+  name: User Input
+- id: type-casting
+  name: Type Casting

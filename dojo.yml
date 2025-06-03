@@ -15,4 +15,5 @@ modules:
   name: Cryptography
 - id: web
   name: Web
-
+- id: python
+  name: Python
