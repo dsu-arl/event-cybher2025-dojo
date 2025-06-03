@@ -9,6 +9,7 @@ from pacePythonTester import ExecutionAgent as ex
 def print_flag():
     try:
         with open("/flag", "r") as f:
+            print("Noice! Here's your flag:")
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
@@ -27,6 +28,7 @@ def run_and_check_script(user_script_path):
     text = re.compile('.*hello,? greg!?$', re.IGNORECASE)
     if not text.match(stdout.strip()):
         print(f"Error: Make sure that you are printing 'Hello, Name'!")
+        print("Hint: Make sure you don't have any extra spaces")
         exit()
 
     print_flag()
