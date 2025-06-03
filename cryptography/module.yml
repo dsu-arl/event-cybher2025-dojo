@@ -36,3 +36,6 @@ challenges:
 - id: morse-code-decoding
   name: Morse Code - Decoding
   allow_privileged: false
+- id: base64-encoding
+  name: Base64 - Encoding
+  allow_privileged: false
