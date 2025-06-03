@@ -1,5 +1,7 @@
-You found a locked digital treasure chest (treasure.zip) with a flag inside. The password is hidden in treasure_clue.txt, a log of password attempts. Use grep to find the correct password, then unzip the file to get the flag, which starts with FLAG{.
+You found a digital treasure chest (treasure.zip) hiding a flag. Unzip it to check its contents, but the real secret might be in somewhere within. Use zip to find the flag, which starts with FLAG{.
+
+Remember when unzip a file use this command unzip /challenge/treasure.zip /home/hacker
+
+Hint: Unzip with unzip treasure.zip, but try unzip -h if you need help looking for the correct command operation. The zip -h will display the help pages for more information about other ways to use zip.
 
 The files that you will be working on are in the /challenge directory.
-
-What You’ll Learn: Learn how to filter relevant information from a log file and unzip to access protected files, skills for analyzing logs and unlocking data.
