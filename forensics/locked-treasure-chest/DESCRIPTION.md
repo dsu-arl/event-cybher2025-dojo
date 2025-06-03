@@ -1,6 +1,6 @@
 You found a digital treasure chest (digital_treasure.zip) hiding another zip file. The flag is contained within the (treasure.zip). Unzip it to check its contents, but the real secret might be in the zip file’s metadata. Use zipinfo to find the flag, which starts with FLAG{.
 
-Remember when unzipping a file use this command unzip /challenge/digital_treasure.zip /home/hacker
+Remember when unzipping a file use this command unzip /challenge/digital_treasure.zip
 
 Do not unzip the treasure.zip. You will manipulate the metadata of the file and not get the correct flag.
 
