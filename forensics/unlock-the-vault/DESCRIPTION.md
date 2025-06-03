@@ -2,4 +2,8 @@ You’re a treasure hunter who found a locked vault (vault.zip) with a flag insi
 
 The files that you will be working on are in the /challenge directory.
 
+Remember to do /challenge/verify once you find the flag in the vault.zip.
+
+When unzipping the .zip file, use this command. unzip /challenge/vault.zip -d /home/hacker
+
 What You’ll Learn: Learn to search for a password in a file and unzip to open password-protected zip files, skills useful for accessing protected data.
