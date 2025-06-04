@@ -22,9 +22,9 @@ Area =  25.0
 ```
 
 ## Challenge Steps
-Use python to read in the width and height of a triangle using **floats**, then calculate and print the area.
+Use python to read in the base and height (b and h) of a triangle using **floats**, then calculate and print the area.
 
-Note: The area will be a float data type! Make sure to get user input and typecast it to a **float** (`float()` instead of `int()`.
+Note: The area will be a float data type! Make sure to get user input and typecast it to a **float** (`float()` instead of `int()`).
 
 1. Create a new file with the file extension `.py`
 2. Write the python code to get two numbers from the user (triangle width and height)
