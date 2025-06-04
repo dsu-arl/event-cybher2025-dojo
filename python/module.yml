@@ -1,4 +1,4 @@
-name: Python Input and Output
+name: Python Math Operators
 challenges:
 - id: running-python-programs
   name: Running Python Programs
@@ -13,3 +13,14 @@ challenges:
   name: User Input
 - id: type-casting
   name: Type Casting
+- id: easy-math
+  name: Easy Math!
+  allow_privileged: false
+- id: math
+  name: Math Operators
+- id: floor-division
+  name: Floor Division of Two Numbers
+- id: geometry
+  name: Geometry
+- id: comparison
+  name: Comparison Operators
