@@ -39,3 +39,6 @@ challenges:
 - id: base64-encoding
   name: Base64 - Encoding
   allow_privileged: false
+- id: medium-challenge-1
+  name: 'Medium Challenge #1'
+  allow_privileged: false
