@@ -6,3 +6,4 @@ challenges:
 - id: swiss-army-button
   name: Swiss Army Button
   allow_privileged: false
+  image: adbabdsu/swissarmybutton
