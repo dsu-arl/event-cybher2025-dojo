@@ -10,11 +10,9 @@ def print_flag():
         print("Error: Flag file not found.")
 
 # Add your imports and other code below here
-letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-
 def encode_answer(answer):
     # Caesar -> ASCII -> Binary
-    global letters
+    letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
     # Caesar cipher
     shift = 12
@@ -23,15 +21,12 @@ def encode_answer(answer):
         num = letters.index(char)
         shifted_num = (num + shift) % 26
         encoded_word += letters[shifted_num]
-    print('After shift:', encoded_word)
     
     # Convert to ASCII
     encoded_word = [ord(char) for char in encoded_word]
-    print('After ASCII:', encoded_word)
 
     # Convert to Binary
     encoded_word = [format(number, '08b') for number in encoded_word]
-    print('After binary:', encoded_word)
 
     return ' '.join(encoded_word)
 
@@ -48,19 +43,19 @@ def main():
     print("Type 'quit' to exit.")
     print('String to decode:', encoded_word)
 
-    # while True:
-    #     user_answer = input('Decoded answer: ')
+    while True:
+        user_answer = input('Decoded answer: ')
 
-    #     if user_answer.lower() == 'quit':
-    #         break
+        if user_answer.lower() == 'quit':
+            break
 
-    #     if user_answer == answer:
-    #         print(f'{GREEN_TEXT_CODE}Correct!{RESET_TEXT_CODE}')
-    #         print("Congragulations! You have passed this challenge! Here is your flag:")
-    #         print_flag()
-    #         break
-    #     else:
-    #         print(f'{RED_TEXT_CODE}Incorrect{RESET_TEXT_CODE}')
+        if user_answer == answer:
+            print(f'{GREEN_TEXT_CODE}Correct!{RESET_TEXT_CODE}')
+            print("Congragulations! You have passed this challenge! Here is your flag:")
+            print_flag()
+            break
+        else:
+            print(f'{RED_TEXT_CODE}Incorrect{RESET_TEXT_CODE}')
 
 
 if __name__ == '__main__':
