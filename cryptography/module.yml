@@ -45,3 +45,6 @@ challenges:
 - id: easy-challenge-1
   name: 'Easy Challenge #1'
   allow_privileged: false
+- id: medium-challenge-1
+  name: 'Medium Challenge #1'
+  allow_privileged: false
