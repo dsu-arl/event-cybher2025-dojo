@@ -1,3 +1,4 @@
+## Challenge Description
 Programming involves alot more than just doing math on numbers. Another important aspect to programming is comparison. Comparison Operators return `True` or `False` based on the comparison being made. We will cover this in more detail later, but for now understanding how they look and what they return is important. The following **Comparison Operators** are important to know:
 
 - **Equal:** `==` 
@@ -44,12 +45,14 @@ Checking if number is negative:  False
 Checking if number is 0:  True
 ```
 
-#### Challenge:
+## Challenge Steps
 Use python to read two numbers from the user and detect if the first number is smaller than the second.
 
 1. Create a new file with the file extension `.py`
 2. Write the python code to read in two numbers from a user
 3. Use **comparison operators** to print **True**, if the first number is less than or equal to the second number. If this is not the case, print **False**
+4. Test your code with `python yourFile.py`
+5. Verify your solution with `/challenge/verify yourFile.py` to get the flag
 
 **Example 1:**
 ```
@@ -63,5 +66,3 @@ First number: 23
 Second number: 2
 Checking if first number is less than or equal to second:  False
 ```
-4. Test your code with `python yourFile.py`
-5. Verify your solution with `verify yourFile.py`
