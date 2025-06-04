@@ -35,7 +35,7 @@ def main():
 	decoded_string = decoded_bytes.decode("ascii")
 
 	print(f"Using the Linux 'base64' command, decode the string '{word}' and submit the decoded string.\n")
-	print("HINT: To pass the word to the base64 command you need to run it as follows: \"echo '<ENCODED_STRING>' | base64 -d\"")	
+	print("HINT: To pass the word to the base64 command you need to run it as follows: \"echo '<ENCODED_STRING>' | base64 -d; echo\"")	
 
 	user_string = input("Submit decoded string, or type 'q' to exit: ")
 
