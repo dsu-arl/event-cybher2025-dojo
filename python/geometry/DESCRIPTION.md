@@ -1,3 +1,4 @@
+## Challenge Description
 Lets put your skills to the test! There are many common formulas that mathematicians need to memorize! In geometry, for example...
 
 **Finding the Area of shapes**  
@@ -20,19 +21,19 @@ Length of side: 5
 Area =  25.0
 ```
 
-#### Challenge:
-Use python to read in the width and height of a triangle using **float**, then calculate and print the area.
+## Challenge Steps
+Use python to read in the width and height of a triangle using **floats**, then calculate and print the area.
 
-Note: The area will be a float data type! Make sure to get user input and typecast it to a **float**.
+Note: The area will be a float data type! Make sure to get user input and typecast it to a **float** (`float()` instead of `int()`.
 
 1. Create a new file with the file extension `.py`
 2. Write the python code to get two numbers from the user (triangle width and height)
-3. Use the formula to calculate the area of a triangle and print the result!
+3. Use the formula above to calculate the area of a triangle and print the result!
+4. Test your code with `python yourFile.py`
+5. Verify your solution with `/challenge/verify yourFile.py`
 ```bash
 # example output
 Base: 3
 Height: 5
 Area =  7.5
 ```
-4. Test your code with `python yourFile.py`
-5. Verify your solution with `verify yourFile.py`
