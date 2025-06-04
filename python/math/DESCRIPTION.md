@@ -38,7 +38,7 @@ Use python to let the user enter a number and detect if that number is odd or ev
 3. Use modulus to show if the number is odd or even. Your program should print `0` for even and `1` for odd. *(Remember even numbers are always divisible by two)*
     (Hint: `5 % 2 = 1`, `8 % 2 = 0`)
 4. Test your code with `python yourFile.py`
-5. Verify your solution with `verify yourFile.py`
+5. Verify your solution with `/challenge/verify yourFile.py` to get your flag
 ```bash
 # example output
 Please enter a number: 5
