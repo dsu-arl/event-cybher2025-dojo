@@ -1,38 +1,34 @@
 ## Challenge Description
-Now that you know how to get input from a user and type cast it, you need to learn how to do things with that input. The first thing we are going to cover is math operators. Python supports many different **Math Operators**, the following are what we care about right now:
+There are a few other math operators commonly used in python:
 
-- **Addition:** `+` (e.g., `a + b`)
-- **Subtraction:** `-` (e.g., `a - b`)
-- **Multiplication:** `*` (e.g., `a * b`)
-- **Division:** `/` (e.g., `a / b`)
 - **Modulus:** `%` (e.g., `a % b`)
 - **Exponent:** `**` (e.g., `a ** b`)
 - **Floor Division:** `//` (e.g., `a // b`)
 
-You likely have used every operator before - besides Modulus and Floor Division. Modulus is like division, but returns the remainder. For example, `4%2` would return 0 since `2` can fit into `4` exactly twice (with a remainder of 0). What would `5%2` return? 
+The exponent is fairly straight forward (how many times we are multiplying a number by itself). 
+Modulus is like division, but returns the remainder. 
+For example, `4%2` would return 0 since `2` can fit into `4` exactly twice (with a remainder of 0). 
+What would `5%2` return? 
 
-Floor division is rather straight forward. It is just like division, but will round down if there is a remainder. For example, `5//2` would return `2`, whereas `5/2` would return `2.5`. 
+Floor division is just like division, but will round down if there is a remainder. 
+For example, `5//2` would return `2`, whereas `5/2` would return `2.5`. 
 
-Here is an example of how you might use these math operators...
+We use these math operators the same way as the other ones: 
 ```python
-# add 2 numbers together
-x = int( input("Enter your first number: ") )
-y = int( input("Enter your second number: ") )
+# exponential (3^3 = 27) (3*3*3 = 27)
+x = 3
+y = 3
 
-sum = x + y
-print("{} + {} = {}".format(x, y, sum))
+exp = x ** y
+
+print("{} ^ {} = {}".format(x, y, sum))
 ```
 
 The output will look like this:
 ```bash
 # example output
-Enter your first number: 4
-Enter your second number: 5
-4 * 5 = 20
+3 ^ 3 = 27
 ```
-
-It it important that we have 3 separate variables in this example (`x`, `y`, and `sum`) - this allows us to store three separate values at the same time. 
-We can re-use variables if desired, but when we update a value, the old one is lost forever.
 
 ## Challenge Steps
 Use python to let the user enter a number and detect if that number is odd or even. Your program should print `0` for even and `1` for odd.

@@ -64,7 +64,7 @@ Add two numbers together!
 3. Add those two numbers together
 4. Print the result
 5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`
+6. Verify your solution with `verify yourFile.py` to get the flag
 ```bash
 # example output
 Enter a number: 5
