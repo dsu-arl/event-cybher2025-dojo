@@ -24,6 +24,9 @@ challenges:
 - id: ascii-decoding
   name: ASCII Decoding
   allow_privileged: false
+- id: hexadecimal-encoding
+  name: Hexadecimal - Encoding
+  allow_privileged: false
 - id: binary-encoding
   name: Binary Encoding
   allow_privileged: false
