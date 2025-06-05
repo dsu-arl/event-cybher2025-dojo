@@ -11,8 +11,8 @@ def print_flag():
         print("Error: Flag file not found.")
 
 # Main function to execute the ASCII encoding challenge
-def play_ascii_game():
-    print("Welcome to the ASCII Encoding Challenge!")
+def play_hex_game():
+    print("Welcome to the Hexadecimal Encoding Challenge!")
     
     print("Note that this challenge uses uppercase letters (lowercase letters have different values). Use this table to help you!\n")
     
@@ -57,5 +57,5 @@ def play_ascii_game():
     print_flag()
 
 # Run the game
-play_ascii_game()
+play_hex_game()
 
