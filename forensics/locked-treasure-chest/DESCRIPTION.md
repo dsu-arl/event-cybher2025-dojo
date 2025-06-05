@@ -1,9 +1,26 @@
-You found a digital treasure chest (digital_treasure.zip) hiding another zip file. The flag is contained within the (treasure.zip). Unzip it to check its contents, but the real secret might be in the zip file’s metadata. Use zipinfo to find the flag, which starts with FLAG{.
+## Challenge Description
+You found a digital treasure chest (digital_treasure.zip) that is hiding another zip file inside of it. The flag is contained within the _metadata_ of this inner zipped file (treasure.zip). 
 
-Remember when unzipping a file use this command unzip /challenge/digital_treasure.zip
+## Metadata
+Metadata in ZIP files refers to information _about the files inside the archive_, rather than the file contents themselves. 
+This includes things like:
 
-Do not unzip the treasure.zip. You will manipulate the metadata of the file and not get the correct flag.
+- File names
+- File sizes (compressed & uncompressed)
+- Compression method
+- Timestamps (modification date/time)
+- File permissions
+- File path (relative inside the archive)
+- Comments (added by whoever zipped the file, contains notes like version or author information)
 
-Hint: Unzip with unzip digital_treasure.zip, but try zipinfo -h if you need help looking for the correct command operation. The zipinfo -h will display the help pages for more information about other ways to use zipinfo.
+This metadata helps systems know how to extract the files correctly and what to do with them.
 
-The files that you will be working on are in the /challenge directory.
+You can view metadata with a tool like `zipinfo`. Try running `zipinfo treasure.zip` to see what default information it gives you. From there, run `zipinfo -h` (`-h` for help) to see what flags you can use with `zipinfo` to view more information. Play around with these flags until you find your temporary `FLAG{...}`
+
+## Challenge Steps
+1. Navigate to the `/challenge` directory
+2. Unzip `digital_treasure.zip` into your home directory (no password needed this time!)
+3. In your home directory, use the `zipinfo` tool on `treasure.zip` to find the temporary flag (`FLAG{...}`)
+    (Do NOT unzip it! You'll lose the flag!)
+4. Run `/challenge/verify` and enter the temporary flag you found
+5. Submit your official `pwn.college{...}` flag!
