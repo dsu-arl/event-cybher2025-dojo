@@ -57,3 +57,6 @@ challenges:
 - id: hard-challenge-1
   name: 'Hard Challenge #1'
   allow_privileged: false
+- id: polybius-square-encoding
+  name: Polybius Square - Encoding
+  allow_privileged: false
