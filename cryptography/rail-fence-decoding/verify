@@ -56,7 +56,6 @@ def main():
             break
         else:
             print("Incorrect. Try again!")
-            print(f"Hint: The decoded word should be {len(answer)} characters long.")
 
 if __name__ == '__main__':
     main()
