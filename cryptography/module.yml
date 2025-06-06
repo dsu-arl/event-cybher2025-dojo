@@ -51,6 +51,9 @@ challenges:
 - id: rail-fence-encoding
   name: Rail Fence (Zigzag) - Encoding
   allow_privileged: false
+- id: rail-fence-decoding
+  name: Rail Fence (Zigzag) - Decoding
+  allow_privileged: false
 - id: easy-challenge-1
   name: 'Easy Challenge #1'
   allow_privileged: false
