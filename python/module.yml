@@ -1,16 +1,21 @@
 name: Python
+
 challenges:
 - id: running-python-programs
   name: Running Python Programs
   allow_privileged: false
 - id: printing
   name: Printing Text
+  allow_privileged: false
 - id: variables
   name: Variables
+  allow_privileged: false
 - id: format-print
   name: Format Printing
+  allow_privileged: false
 - id: user-input
   name: User Input
+  allow_privileged: false
 - id: type-casting
   name: Type Casting
 - id: if-statements
@@ -23,3 +28,19 @@ challenges:
   name: Else-If Blocks
 - id: logical-operators
   name: Logical Operators
+  allow_privileged: false
+- id: easy-math
+  name: Easy Math!
+  allow_privileged: false
+- id: math
+  name: Math Operators
+  allow_privileged: false
+- id: floor-division
+  name: Floor Division of Two Numbers
+  allow_privileged: false
+- id: geometry
+  name: Geometry
+  allow_privileged: false
+- id: comparison
+  name: Comparison Operators
+  allow_privileged: false

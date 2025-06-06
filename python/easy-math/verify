@@ -1,0 +1,52 @@
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
+import sys
+import os
+import re
+
+sys.path.append('/challenge')
+from pacePythonTester import ExecutionAgent as ex
+
+def print_flag():
+    try:
+        with open("/flag", "r") as f:
+            print("Nice addition! Here's your flag:")
+            print(f.read())
+    except FileNotFoundError:
+        print("Error: Flag file not found.")
+
+def is_prompt_line(line):
+    # Heuristics for detecting prompts
+    return bool(re.search(r'(enter|input|number|:)', line.strip().lower()))
+
+def run_and_check_script(user_script_path):
+    test_cases = [
+        ("1\n2\n", "3"),
+        ("10\n5\n", "15"),
+        ("0\n0\n", "0"),
+        ("-2\n7\n", "5"),
+        ("123\n456\n", "579")
+    ]
+
+    for test_input, expected_output in test_cases:
+        try:
+            stdout, stderr = ex.run(user_script_path, input=test_input)
+        except TypeError as e:
+            print("Error:", e)
+            exit()
+
+        if not stdout.strip().endswith(expected_output):
+            print("Error: Make sure you are converting input to integers and printing the sum. Prompts are okay, but print only the result.")
+            exit()
+
+    print_flag()
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("You forgot to give me your python file!")
+        print("Try running: '/challenge/verify yourFile.py'")
+        sys.exit(1)
+
+    user_script_path = sys.argv[1]
+    run_and_check_script(user_script_path)
+
