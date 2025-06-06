@@ -43,7 +43,8 @@ def run_and_check_script(user_script_path):
             exit()
 
         if not re.search(correct, stdout.strip()):
-            print(f"Error: Make sure that you are printing '{correct}' exactly!")
+            er_message = re.search(r"'(.*?)'", correct)
+            print(f"Error: Make sure that you are printing '{er_message}' exactly!")
             exit()
 
         # This is to ensure that they are only printing one answer for each itteration of the program 
