@@ -42,7 +42,7 @@ def run_and_check_script(user_script_path):
                 result = match.group(1)
             else:
                 result = "the error message"
-            print(f"Error: Make sure that you are printing '{correct}' exactly!")
+            print(f"Error: Make sure that you are printing '{result}' exactly!")
             exit()
 
         # This is to ensure that they are only printing one answer for each itteration of the program 
