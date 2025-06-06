@@ -1,3 +1,4 @@
+## Challenge Description
 Python also supports **nested conditional statements** which means we can use an `if` or `if-else` statement inside of an existing `if` or `if-else` statement.
 
 #### Python Nested Conditional Statement Syntax:
@@ -42,7 +43,7 @@ else:
 print("Total: ", amount - discount)
 ```
 
-#### Challenge:
+## Challenge Steps
 Use python to write a simple ATM system
 
 1. Create a new file with the file extension `.py`
@@ -53,6 +54,9 @@ Use python to write a simple ATM system
    3. If the user requests to withdraw an amount that is not a multiple of 20, print an error message
    4. If the withdrawal is successful, deduct the amount from the balance and print the new balance
 4. Write the python code that print a message indicating the result of the transaction
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `/challenge/verify yourFile.py`
+
 ```bash
 # Example Running of the program
 python yourScript.py
@@ -85,5 +89,3 @@ Withdraw: 45
 Error: Withdraw Amount Must Be a Multiple of 20
 ```
 
-3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
