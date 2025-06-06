@@ -1,3 +1,4 @@
+## Challenge Description
 Now, there might be a case in which you need to check multiple expressions to be `true`. If this is the case Python `if-else` statements support an additional way to check an expression - the `elif` block. This works similar to the `else` block, as the `elif` is also optional. However, an `if-else` block can contain only one `else` block, whereas there can be as many `elif` block as necessary following an `if` block.
 
 #### Python `if-elif-else` statement syntax:
@@ -28,33 +29,33 @@ else:
 print("Total: ", amount - discount)
 ```
 
-#### Challenge:
-Use python to compare two numbers, printing the comparison result
+## Challenge Steps
+Use python to compare two numbers, and print if the first number is larger than the second, if the first number is smaller than the second number, or if the first and second numbers are equal.
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept two integers (x, y) from user input
 2. Write the python code to determine if x is greater than, equal to, or less than y and prints the result
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
+
 ```bash
 # Example Running of the program
 python yourScript.py
 X: 15
 Y: 25
-x (15) is less than y(25)
+x (15) is less than y (25)
 ```
 ```bash
 # Another Example Running of the program
 python yourScript.py
 X: 35
 Y: 25
-x (35) is greater than y(25)
+x (35) is greater than y (25)
 ```
 ```bash
 # Example Running of the program
 python yourScript.py
 X: 15
 Y: 15
-x (15) is equal to y(15)
+x (15) is equal to y (15)
 ```
-
-3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
