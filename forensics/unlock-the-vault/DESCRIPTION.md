@@ -19,3 +19,4 @@ Unfortunately, this vault is also locked with a password - in order to unzip it,
 3. Use the password you found to unzip `vault.zip` into your home directory `/home/hacker` (note that it will not look like you are typing a password, but you are! Just type it and press Enter)
 4. You should now have a `vault.txt` file, in your home directory. This file contains a temporary flag: `FLAG{...}` (use `cat` to view the flag)
 5. Run `/challenge/verify` and enter the temporary flag from `vault.txt`, and you will receive your offical `pwn.college` flag!
+
