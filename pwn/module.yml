@@ -4,7 +4,7 @@ challenges:
   name: Password Cracking
   allow_privileged: false
 - id: buffer-overflow
-  name: buffer-overflow
+  name: Buffer Overflow 
   allow_privileged: false
 - id: magic-number
   name: Magic Number
