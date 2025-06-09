@@ -17,4 +17,4 @@ EOF
 
 ADD --chown=0:0 --chmod=6755 http://github.com/pwncollege/exec-suid/releases/latest/download/exec-suid /usr/bin/exec-suid
 # RUN chmod 6755 /usr/bin/exec-suid
-COPY ./buffer-overflow/buffer_overflow /home/hacker/buffer_overflow_Challenge01
+# COPY ./buffer-overflow/buffer_overflow /home/hacker/buffer_overflow_Challenge01

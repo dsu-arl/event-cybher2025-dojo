@@ -1,4 +1,4 @@
-## Challenge Dsecription
+## Challenge Description
 This challenge contains four different numbers that are randomly chosen as the 'secret' number. Each execution of the program chooses a different one of the four as the 'secret' number. The goal of this challenge is to enter the correct 'secret' number and retrieve the token. There are several techniques you can use to get the correct number(s), which one you learn is up to you!
 
 ## How it Works
@@ -14,3 +14,10 @@ Debuggers are very powerful tools. Using a debugger you can look at the code for
 
 ## When You're Done
 You are done when the ```magic_numbers``` program emits a string; there will be no mistaking what is the correct string. When you've received it, copy the string and run ```python verify``` and paste the value at the prompt. You will receive a flag that you will use in pwn.college to complete the challenge.
+
+## Challenge Steps
+1. Open a terminal in the Desktop
+2. Navigate to the ```/challenge``` directory (Hint: Type ```cd /challenge``` and press ```Enter```)
+3. Use the ```ls``` command to find the challenge file (Hint: it is NOT the DESCRIPTION.md file)
+4. To run the challenge, type the filename and press ```Enter```!
+5. Submit your flag!
