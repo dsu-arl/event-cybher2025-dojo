@@ -28,7 +28,7 @@ Following these guidlines, our word `HELLO` should be split like this: `HE`, `LX
 
 *Second*, we now utilize our 5x5 box to create a ciphered text. We will take each pair from the previous step, and identify where they exist on the grid. Based on their position we will do either 1 of 3 things:
 
-1. If they are located in the same column, then each character will become the character that is under it. If the character is at the bottom, then you wrap around to the top. For example, if you were locating the character pair `AT` in the grid above, you will notice they are in the same column. This means that "A" would become "D", and "T" would become "Z". So, `AS` becomes `TZ`.
+1. If they are located in the same column, then each character will become the character that is under it. If the character is at the bottom, then you wrap around to the top. For example, if you were locating the character pair `AT` in the grid above, you will notice they are in the same column. This means that "A" would become "D", and "T" would become "Z". So, `AT` becomes `DZ`.
 
 2. If they are located in the same row, then each character will become the character that is to the right of it. If your character is all the way right, then wrap around to the left side. For example, if you were locating the character pair `EM` in the grid above, you will notice they are in the same row. This means that "E" would become "G", and "M" would wrap around and become "E". So, `EM` becomes `GE`.
 
