@@ -50,6 +50,8 @@ challenges:
   allow_privileged: false
 - id: playfair-encoding
   name: Playfair - Encoding
+- id: polybius-square-encoding
+  name: Polybius Square - Encoding
   allow_privileged: false
 - id: easy-challenge-1
   name: 'Easy Challenge #1'
