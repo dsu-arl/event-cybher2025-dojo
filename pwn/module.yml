@@ -6,3 +6,6 @@ challenges:
 - id: buffer-overflow
   name: buffer-overflow
   allow_privileged: false
+- id: magic-number
+  name: Magic Number
+  allow_privileged: false
