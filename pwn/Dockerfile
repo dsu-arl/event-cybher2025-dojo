@@ -11,7 +11,7 @@ RUN <<EOF
 EOF
 
 RUN <<EOF
-	apt update && apt install git binutils python3.12 -y
+	apt update && apt install git binutils python3.12 gdb -y
 	# apt install python3.12 -y
 EOF
 
