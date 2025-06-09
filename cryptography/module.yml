@@ -50,6 +50,7 @@ challenges:
   allow_privileged: false
 - id: playfair-encoding
   name: Playfair - Encoding
+  allow_privileged: false
 - id: polybius-square-encoding
   name: Polybius Square - Encoding
   allow_privileged: false
