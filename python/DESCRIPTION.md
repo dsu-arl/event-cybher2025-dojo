@@ -1,8 +1,11 @@
-This module will teach you about input, output, and variables in Python.
+Python program control flow is regulated by various types of statements. By default the instructions in a program are executed in a sequential manner (step-by-step), from start to end. However, sequentially executing programs can perform only simplistic tasks.
 
-- `input`: Data that is given to your program, either by the user or from a file
-- `output`: Data that your program displays to the user
-- `variable`: A place to store data. This allows your program to access and process that data as needed
+We would like the program to have decision-making ability, so that it performs different steps depending on different conditions. Python provides this functionality through two different statements: Decision Making Statements (**Conditional Statements**) and Iterative Statements (**Loops**). 
 
-All challenges will require you to make your own python file with the `.py` extension. You can name these files whatever you want. In challenges when you see `yourFile.py`, replace that with the file you made!
-To run a python file: `python yourFile.py`.
+This module is all about learning Python supported conditional statements. 
+Topics to be included: 
+- If statements
+- If-Else statements
+- Nested Conditionals
+- Else-If statements
+- Logic Operators 
