@@ -12,3 +12,6 @@ challenges:
 - id: reverse-password-plaintext
   name: Reverse Plaintext Password
   allow_privileged: false
+- id: reverse-password-backward
+  name: Reverse Backward Password
+  allow_privileged: false
