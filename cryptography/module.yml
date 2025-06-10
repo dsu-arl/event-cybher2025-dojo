@@ -60,6 +60,9 @@ challenges:
 - id: polybius-square-decoding
   name: Polybius Square - Decoding
   allow_privileged: false
+- id: rail-fence-encoding
+  name: Rail Fence (Zigzag) - Encoding
+  allow_privileged: false
 - id: easy-challenge-1
   name: 'Easy Challenge #1'
   allow_privileged: false
