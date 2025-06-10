@@ -9,6 +9,6 @@ challenges:
   image: adbabdsu/swissarmybutton
   allow_privileged: false
 - id: get-to-da-choppa
-  name: GET to Da Choppa
+  name: YeeBay
   image: adbabdsu/swissarmybutton
   allow_privileged: false
