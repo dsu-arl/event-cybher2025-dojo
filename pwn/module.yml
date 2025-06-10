@@ -15,3 +15,6 @@ challenges:
 - id: reverse-password-backward
   name: Reverse Backward Password
   allow_privileged: false
+- id: reverse-password-cipher
+  name: Reverse Cipher Password
+  allow_privileged: false
