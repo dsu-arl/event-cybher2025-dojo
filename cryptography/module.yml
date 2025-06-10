@@ -54,6 +54,9 @@ challenges:
 - id: polybius-square-encoding
   name: Polybius Square - Encoding
   allow_privileged: false
+- id: polybius-square-decoding
+  name: Polybius Square - Decoding
+  allow_privileged: false
 - id: easy-challenge-1
   name: 'Easy Challenge #1'
   allow_privileged: false
