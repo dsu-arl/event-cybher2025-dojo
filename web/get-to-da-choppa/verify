@@ -5,7 +5,6 @@ sys.path.append('/challenge')
 def print_flag():
     try:
         with open("/flag", "r") as f:
-            return f.read()
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
