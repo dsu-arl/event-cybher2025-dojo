@@ -23,7 +23,7 @@ For example, decoding the ciphertext `KGFVRV` would look something like this:
 
 This gives us the unciphered text `HELXLO`. The extra character `X` is added as a pad during encoding, so the true text is `HELLO`. 
 
-So, `KGFVRV` becomes `HELLO`
+So, `KGFVRV` becomes `HELLO`!
 
 ## Challenge Steps
 1. Start the challenge
