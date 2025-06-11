@@ -52,6 +52,7 @@ Use python to write a program that prints even number
 2. Write python to accept a positive integer from the user
 3. Write python, using a `for()` loop, that iterates through the range **starting at 0** to the given number
 4. **Print only even numbers** up until the user specified number
+    (Hint: You may need to add one to the number the user entered to account for range printing to num-1)
 5. Test your code with `python yourFile.py`
 6. Verify your solution with `/challenge/verify yourFile.py`
 
