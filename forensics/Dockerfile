@@ -16,5 +16,11 @@ RUN chmod 6755 /usr/bin/exec-suid
 
 COPY hidden-treasures-in-the-picture/treasure.jpg home/ubuntu
 RUN chown ubuntu: /home/ubuntu/treasure.jpg
- 
+
+COPY secret-message-in-photo/suspicious_doggo.jpg /home/ubuntu
+RUN chown ubuntu: /home/ubuntu/suspicious_doggo.jpg
+
+COPY secret-message-in-photo/secret.txt /home/ubuntu
+RUN chown ubuntu: /home/ubuntu/secret.txt
+
 USER hacker
