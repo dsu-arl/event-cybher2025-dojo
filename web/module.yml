@@ -7,3 +7,8 @@ challenges:
 - id: swiss-army-button
   name: Swiss Army Button
   image: adbabdsu/swissarmybutton
+  allow_privileged: false
+- id: get-to-da-choppa
+  name: YeeBay
+  image: adbabdsu/swissarmybutton
+  allow_privileged: false
