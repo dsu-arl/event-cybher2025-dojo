@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import random
 from os import makedirs
 from os import environ
@@ -62,7 +62,7 @@ def main():
             The first command you need to know is 'ls'. The 'ls' command
             simply lists the contents of the directory you are currently in.
             If you want to know what directory you are currently in, you can
-            type the 'pwd' command. This stands for 'print working directory.'
+            type the 'pwd' command. This stands for 'print working directory'.
 
             The second command you need to know is 'cd'. The 'cd' command
             stands for 'change directory'. It allows you to move through
@@ -75,14 +75,18 @@ def main():
             directory. 
 
             From here your goal is to look around the different directories
-            within the starthere directory to find a file. That file will
-            have a name that looks like this 'pwn_{random_word}_{random_word}_pwn.
+            within the starthere directory to find a secret file. That file
+            will have a name that looks like this: 
+            'pwn_{random_word}_{random_word}_pwn'
+            Remember, this secret file is NOT your flag!
 
-            If you find yourself in a directory that is empty, type 'cd ..' to 
-            go back one directory and change your course! 
+            As you are searching through these directories, you may find 
+            yourself in a directory that is empty. If this happens, type 
+            'cd ..' to go back one directory and change your course! 
+            Keep searching until you find the secret file!
 
-            Then you can type '/challenge/solve' and enter the filename when 
-            prompted to get your flag!
+            Once you find the secret file, run '/challenge/solve' again and 
+            enter the filename when prompted to get your flag!
 
             Note: Type 'cd' without a directory name to return to your home 
             directory. You can also use the '/' tolink together directory 

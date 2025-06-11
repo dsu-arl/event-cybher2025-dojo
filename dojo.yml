@@ -1,5 +1,7 @@
 id: cybher-ctf
 name: CybHer CTF
+image: nickm543/pc-cybher-dojo
+type: summercamp
 award:
   emoji: ✨
 modules:
@@ -7,6 +9,14 @@ modules:
   name: Start Here!
 - id: linux
   name: Linux
+- id: forensics
+  name: Forensics
+- id: cryptography
+  name: Cryptography
+- id: web
+  name: Web
+- id: python
+  name: Python
 - id: pwn
   name: pwn
   image: whatupdoc6130/pwncollege:bufferoverflowv1
