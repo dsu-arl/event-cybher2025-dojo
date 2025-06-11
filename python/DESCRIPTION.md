@@ -1,11 +1,11 @@
-Python program control flow is regulated by various types of statements. By default the instructions in a program are executed in a sequential manner (step-by-step), from start to end. However, sequentially executing programs can perform only simplistic tasks.
+Python supports Iterative Statements (Loops) and allow us to execute a statment or group of statements multiple times.
 
-We would like the program to have decision-making ability, so that it performs different steps depending on different conditions. Python provides this functionality through two different statements: Decision Making Statements (**Conditional Statements**) and Iterative Statements (**Loops**). 
+In general, programs are executed sequentially: the first statement in a program is executed first, followed by the second, and so on. There can be situations in which you may need to execute a block of code several times, and that's where loops become beneficial.
 
-This module is all about learning Python supported conditional statements. 
-Topics to be included: 
-- If statements
-- If-Else statements
-- Nested Conditionals
-- Else-If statements
-- Logic Operators 
+
+This module is all about learning Python Loops. 
+Topics to be covered: 
+- While Loops
+- Introduction to Python Lists
+- `range()` Function
+- For Loops.

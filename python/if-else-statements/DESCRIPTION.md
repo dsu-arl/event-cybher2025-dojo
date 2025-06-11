@@ -1,4 +1,3 @@
-## Challenge Description
 An **if-else statement** operates similarily to an `if` statement, except it provides an additional block of code to run if the conditional evaluates to `false`.
 
 #### Python `if-else` statement syntax:
@@ -21,18 +20,17 @@ else:
 	print("Not Eligible to Vote!")
 ```
 
-## Challenge Steps
+#### Challenge:
 Use python to determine if a number is even or odd
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept an integer from user input
-2. Write the python code to determine if the number entered is even or odd, and print "even" or "odd" accordingly (see example output below)
-3. Test your code with `python yourFile.py`
-4. Verify your solution with `/challenge/verify yourFile.py`
-
+2. Write the python code to determine if the number entered is even or odd
 ```bash
 # Example Running of the program
 python yourScript.py
 Enter a number: 15
 15 is odd
 ```
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`
