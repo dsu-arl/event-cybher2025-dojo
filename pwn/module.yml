@@ -1,8 +1,5 @@
 name: pwn
 challenges:
-- id: password-cracking
-  name: Password Cracking
-  allow_privileged: false
 - id: buffer-overflow
   name: Buffer Overflow
   allow_privileged: false

@@ -9,7 +9,7 @@ When you have finished your analysis, follow the steps in the Challenge Steps se
 
 ## Challenge Steps
 1. Select the "VSCode Workspace" option from the challenge menu.
-2. Open a file by pressing ```ctrl```+```o``` and in the text field type ```/challenge/reversePassword.py```.
+2. Open a file by pressing ```ctrl```+```o``` and in the text field type ```/challenge/plaintextPassword.py```.
 3. Read the source code to identify the password.
 4. When you have the password open a terminal by pressing ```ctrl```+```~``` and in the terminal type ```cd /challenge```.
 5. Run ```python verify``` and enter the password to retrieve the flag.
