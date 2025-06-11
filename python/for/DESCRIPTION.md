@@ -1,3 +1,4 @@
+## Challenge Description
 The **for loop** in Python provides the ability to loop over items in an iterable sequence such as a list or string. 
 
 #### Syntax of a Python For Loop:
@@ -44,13 +45,15 @@ Running the code above will output the following:
 1 3 5 7 9 
 ```
 
-#### Challenge:
+## Challenge Steps
 Use python to write a program that prints even number
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept a positive integer from the user
 3. Write python, using a `for()` loop, that iterates through the range **starting at 0** to the given number
 4. **Print only even numbers** up until the user specified number
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `/challenge/verify yourFile.py`
 
 ```bash
 # Example Running of the program
@@ -63,5 +66,3 @@ Enter A Number: 10
 10
 ```
 
-5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`
