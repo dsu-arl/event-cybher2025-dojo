@@ -1,3 +1,4 @@
+## Challenge Description
 Lastly, Python allows you to define your own functions. This is what we care about the most, as it allows you to write code that does a specific task and use it throughout your program. In this module  we will focus on teaching you how to define your own functions (the syntax), how to pass arguments, and return values. 
 
 #### Python Function Syntax:
@@ -34,10 +35,10 @@ def greeting():
 greeting()
 ```
 
-#### Challenge:
+## Challenge Steps
 Use python to write a functon that prints the number 1-10
 
 1. Create a new file with the file extension `.py`
 2. Write python, using a function, that prints the numbers 1-10
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
