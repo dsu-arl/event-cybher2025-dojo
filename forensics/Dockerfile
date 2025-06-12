@@ -24,4 +24,7 @@ COPY chatty-server/server.log /home/ubuntu/Chatty-Server/
 
 COPY code-cracker/secret.bin /home/ubuntu/Code-Cracker/
 
+COPY chatty-server/server.log /home/ubuntu
+RUN chown ubuntu: /home/ubuntu/server.log
+
 USER hacker
