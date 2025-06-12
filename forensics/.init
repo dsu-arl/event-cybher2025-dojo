@@ -1,0 +1,7 @@
+#!/bin/sh
+chown ubuntu: /home/ubuntu/Hidden-Treasure-in-Picture/treasure.jpg
+chown ubuntu: /home/ubuntu/Secret-Message-in-Photo/suspicious_doggo.jpg
+chown ubuntu: /home/ubuntu/Chatty-Server/server.log
+chown ubuntu: /home/ubuntu/Secret-Message-in-Photo/secret.txt
+chown ubuntu: /home/ubuntu/Code-Cracker/secret.bin
+
