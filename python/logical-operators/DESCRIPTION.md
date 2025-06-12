@@ -1,11 +1,9 @@
-## Challenge Description
 Lastly, Python also supports **logical operators**. These allow you to combine two or more conditionals in one statement. These are the two supported logical operators we care about at this time:
 
-- **AND:** `and` (e.g., `CONDITIONAL1 and CONDITIONAL2`)
-    - Both CONDITIONAL1 `and` CONDITIONAL2 must be True to pass. If one is false it fails.
-
-- **OR:** `or` (e.g., `CONDITIONAL1 or CONDITIONAL2`) 
-    - Either CONDITIONAL 1 `or` CONDITIONAL2 can be True to pass. If both are false it fails.
+| Operator | Name | Example | Meaning |
+|---|---|---|---|
+| and | AND | CONDITIONAL1 and CONDITIONAL2 | Both CONDITIONAL1 `and` CONDITIONAL2 must be True to pass. If one is false it fails.
+| or | OR | CONDITIONAL1 or CONDITIONAL2 | Either CONDITIONAL 1 `or` CONDITIONAL2 can be True to pass. If both are false it fails.
 
 **Example of Python Logical Operators:**
 ```
@@ -30,7 +28,7 @@ if number < 1 or number >= 5:
 
 One thing to note, logical operators can be used inside of `if` and `elif` conditionals. If you use `and` the statement evaluates to `true` only if all the conditionals are `true`. If you use `or` the statement evaluates to `true` if one of the conditionals is `true`.
 
-## Challenge Steps
+#### Challenge:
 Use python to write a Student Classification System
 
 1. Create a new file with the file extension `.py`
@@ -40,9 +38,6 @@ Use python to write a Student Classification System
    2. Average Test Score greater than or equal to 70 and an attendance greater than or equal to 75 means they are passing
    3. Anything else is falling
 4. Write the python code that prints the student's classification
-5. Test your code with `python yourFile.py`
-6. Verify your solution with `/challenge/verify yourFile.py`
-
 ```bash
 # Example Running of the program
 python yourScript.py
@@ -57,4 +52,7 @@ Average Test Score: 15
 Attendance: 5
 Student is a Failing Student
 ```
+
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `verify yourFile.py`
 

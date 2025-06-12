@@ -14,14 +14,15 @@ RUN apt install -y exiftool binwalk
 ADD --chown=0:0 http://github.com/pwncollege/exec-suid/releases/latest/download/exec-suid /usr/bin/exec-suid
 RUN chmod 6755 /usr/bin/exec-suid
 
-COPY hidden-treasures-in-the-picture/treasure.jpg home/ubuntu
-RUN chown ubuntu: /home/ubuntu/treasure.jpg
+COPY hidden-treasures-in-the-picture/treasure.jpg /home/ubuntu/Hidden-Treasure-in-Picture/
 
-COPY secret-message-in-photo/suspicious_doggo.jpg /home/ubuntu
-RUN chown ubuntu: /home/ubuntu/suspicious_doggo.jpg
+COPY secret-message-in-photo/suspicious_doggo.jpg /home/ubuntu/Secret-Message-in-Photo/
 
-COPY secret-message-in-photo/secret.txt /home/ubuntu
-RUN chown ubuntu: /home/ubuntu/secret.txt
+COPY secret-message-in-photo/secret.txt /home/ubuntu/Secret-Message-in-Photo/
+
+COPY chatty-server/server.log /home/ubuntu/Chatty-Server/
+
+COPY code-cracker/secret.bin /home/ubuntu/Code-Cracker/
 
 COPY chatty-server/server.log /home/ubuntu
 RUN chown ubuntu: /home/ubuntu/server.log
