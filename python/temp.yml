@@ -18,19 +18,14 @@ challenges:
   allow_privileged: false
 - id: type-casting
   name: Type Casting
-  allow_privileged: false
 - id: if-statements
   name: If Statements
-  allow_privileged: false
 - id: if-else-statements
   name: If-Else Statements
-  allow_privileged: false
 - id: nested
   name: Nested Conditional Statements
-  allow_privileged: false
 - id: else-if-blocks
   name: Else-If Blocks
-  allow_privileged: false
 - id: logical-operators
   name: Logical Operators
   allow_privileged: false
@@ -49,16 +44,3 @@ challenges:
 - id: comparison
   name: Comparison Operators
   allow_privileged: false
-- id: while
-  name: While Loops
-  allow_privileged: false
-- id: lists
-  name: Python Lists
-  allow_privileged: false
-- id: range
-  name: Range() Function
-  allow_privileged: false
-- id: for
-  name: For Loops
-  allow_privileged: false
-

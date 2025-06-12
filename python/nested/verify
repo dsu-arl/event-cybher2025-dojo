@@ -1,4 +1,4 @@
-#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
+#!/opt/pwn.college/python
 import sys
 import os
 import re
@@ -9,7 +9,6 @@ from pacePythonTester import ExecutionAgent as ex
 def print_flag():
     try:
         with open("/flag", "r") as f:
-            print("Cool ATM! Here's the flag: ")
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
@@ -43,12 +42,7 @@ def run_and_check_script(user_script_path):
             exit()
 
         if not re.search(correct, stdout.strip()):
-            match = re.search(r"'(.*?)'", str(correct))
-            if match:
-                result = match.group(1)
-            else:
-                result = "the error message"
-            print(f"Error: Make sure that you are printing '{result}' exactly!")
+            print(f"Error: Make sure that you are printing '{correct}' exactly!")
             exit()
 
         # This is to ensure that they are only printing one answer for each itteration of the program 
@@ -62,8 +56,7 @@ def run_and_check_script(user_script_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("You forgot to give me your python file!")
-        print("Try running: '/challenge/verify yourFile.py'")
+        print("Usage: run <user_script.py>")
         sys.exit(1)
 
     user_script_path = sys.argv[1]
