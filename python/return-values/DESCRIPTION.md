@@ -1,3 +1,4 @@
+## Challenge Description
 Now, sometimes we want functions to do something to our variables and return a result. This requires defining a function **return value**.
 
 The `return` keyword as the last statement in function definition indicates the end of function block and that program flow "returns" to the calling function. Along with returning flow control, the function can also return values to the calling function. These values can be stores in variables for further processing. This introduces a change to the function definition rules:
@@ -30,8 +31,8 @@ a=1, b=2, c=7, a+b+c=10
 ```
 
 
-#### Challenge:
-Use python to write a basic calculator function
+## Challenge Steps
+Use python to write a basic calculator function. You can update your existing python file, or make a new one! This time you will be _returning_ the solution.
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept two integers from the user
@@ -40,6 +41,8 @@ Use python to write a basic calculator function
    2. Return the result or an error message if the user attempts division by zero
    3. Print the result outside the function
 4. Call this function once for each supported operation
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `/challenge/verify yourFile.py`
 
 ```bash
 # Example Running of the program
@@ -51,5 +54,3 @@ Number 2: 12
 156
 1.08
 ```
-5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`

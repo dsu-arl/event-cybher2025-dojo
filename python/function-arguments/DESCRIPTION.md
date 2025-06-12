@@ -52,7 +52,7 @@ Use python to write a basic calculator function
    2. Print the result or an error message if the user attempts division by zero
 4. Call this function once for each supported operation
 5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`
+6. Verify your solution with `/challenge/verify yourFile.py`
 
 ```bash
 # Example Running of the program
