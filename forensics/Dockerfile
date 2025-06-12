@@ -14,14 +14,14 @@ RUN apt install -y exiftool binwalk
 ADD --chown=0:0 http://github.com/pwncollege/exec-suid/releases/latest/download/exec-suid /usr/bin/exec-suid
 RUN chmod 6755 /usr/bin/exec-suid
 
-COPY hidden-treasures-in-the-picture/treasure.jpg /home/ubuntu/Hidden-Treasure-in-Picture
+COPY hidden-treasures-in-the-picture/treasure.jpg /home/ubuntu/Hidden-Treasure-in-Picture/
 
-COPY secret-message-in-photo/suspicious_doggo.jpg /home/ubuntu/Secret-Message-in-Photo
+COPY secret-message-in-photo/suspicious_doggo.jpg /home/ubuntu/Secret-Message-in-Photo/
 
-COPY secret-message-in-photo/secret.txt /home/ubuntu/Secret-Message-in-Photo
+COPY secret-message-in-photo/secret.txt /home/ubuntu/Secret-Message-in-Photo/
 
-COPY chatty-server/server.log /home/ubuntu/Chatty-Server
+COPY chatty-server/server.log /home/ubuntu/Chatty-Server/
 
-COPY code-cracker/secret.bin /home/ubuntu/Code-Cracker
+COPY code-cracker/secret.bin /home/ubuntu/Code-Cracker/
 
 USER hacker
