@@ -26,4 +26,7 @@ COPY code-cracker/secret.bin /home/ubuntu/Code-Cracker/
 
 COPY the-artists-clue/art.jpg /home/ubuntu/Artists-Clue/
 
+COPY chatty-server/server.log /home/ubuntu
+RUN chown ubuntu: /home/ubuntu/server.log
+
 USER hacker
