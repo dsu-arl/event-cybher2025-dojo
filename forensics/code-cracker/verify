@@ -10,7 +10,6 @@ def print_flag():
         print("Error: Flag file not found.")
 
 # Add your imports and other code below here
-# Add your imports and other code below here
 def print_instructions():
     print("Welcome to the Code Cracker challenge!")
     print("You’re investigating a secret.bin")
