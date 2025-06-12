@@ -1,3 +1,4 @@
+## Challenge Description
 **Function arguments** are the values or variables passed into a function when it is called. You can define what is to be passed when calling your function and the function's behavior will often depend on the arguments passed. This adds a new rule to our function definition:
 -  Any parameters or arguments should be placed within the function definition's parentheses
 
@@ -41,7 +42,7 @@ TypeError: printInfo() takes exactly 2 arguments (1 given)
 From this we can see the first function call worked as expected because every parameter was passed in the correct order. The second one did not, as we did not pass anything for `age` and that is a required parameter.
 
 
-#### Challenge:
+## Challenge Steps
 Use python to write a basic calculator function
 
 1. Create a new file with the file extension `.py`
@@ -50,6 +51,8 @@ Use python to write a basic calculator function
    1. Your calculator should support these operations: add, subtract, multiply, divide
    2. Print the result or an error message if the user attempts division by zero
 4. Call this function once for each supported operation
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `verify yourFile.py`
 
 ```bash
 # Example Running of the program
@@ -61,5 +64,3 @@ Number 2: 12
 156
 1.08
 ```
-5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`

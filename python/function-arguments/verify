@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import sys
 import os
 import re
@@ -9,6 +9,7 @@ from pacePythonTester import ExecutionAgent as ex
 def print_flag():
     try:
         with open("/flag", "r") as f:
+            print("Nice calculator! Here's the flag: ")
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
@@ -39,7 +40,8 @@ def run_and_check_script(user_script_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: run <user_script.py>")
+        print("You forgot to give me your python file!")
+        print("Try running: '/challenge/verify yourFile.py'")
         sys.exit(1)
 
     user_script_path = sys.argv[1]
