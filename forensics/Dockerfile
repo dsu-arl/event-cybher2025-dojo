@@ -23,4 +23,7 @@ RUN chown ubuntu: /home/ubuntu/suspicious_doggo.jpg
 COPY secret-message-in-photo/secret.txt /home/ubuntu
 RUN chown ubuntu: /home/ubuntu/secret.txt
 
+COPY chatty-server/server.log /home/ubuntu
+RUN chown ubuntu: /home/ubuntu/server.log
+
 USER hacker
