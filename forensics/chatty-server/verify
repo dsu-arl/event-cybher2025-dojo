@@ -23,7 +23,7 @@ def main():
     except KeyboardInterrupt:
         exit(0)
 
-    correct_flag = "FLAGFLAG{log_search_success}"
+    correct_flag = "FLAG{log_search_success}"
     if answer == correct_flag:
         print("That is correct!")
         print("\nHere is your final flag!")
