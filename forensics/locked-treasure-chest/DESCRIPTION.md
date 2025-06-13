@@ -1,7 +1,7 @@
 ## Challenge Description
 You found a digital treasure chest (`digital_treasure.zip`) that is hiding another zip file inside of it. The flag is contained within the _metadata_ of this inner zipped file (`treasure.zip`). 
 
-## Metadata
+#### Metadata
 Metadata in ZIP files refers to information _about the files inside the archive_, rather than the file contents themselves. 
 This includes things like:
 
