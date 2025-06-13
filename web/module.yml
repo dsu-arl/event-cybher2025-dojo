@@ -16,3 +16,7 @@ challenges:
   name: Am I Admin?
   allow_privileged: false
   image: adbabdsu/swissarmybutton
+- id: forceful-browsing
+  name: Forceful Browsing
+  allow_privileged: false
+  image: adbabdsu/swissarmybutton
