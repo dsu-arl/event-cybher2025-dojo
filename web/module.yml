@@ -16,3 +16,11 @@ challenges:
   name: Am I Admin 2?
   allow_privileged: false
   image: adbabdsu/swissarmybutton
+- id: am-i-admin
+  name: Am I Admin?
+  allow_privileged: false
+  image: adbabdsu/swissarmybutton
+- id: forceful-browsing
+  name: Forceful Browsing
+  allow_privileged: false
+  image: adbabdsu/swissarmybutton

@@ -34,7 +34,7 @@ items = [
     {"name": "Leftover Leftovers", "price": "$0.50", "seller": "foodTimeLoop", "bids": 1, "end": "2025-06-11"},
     {"name": "Shirt for Your Thoughts", "price": "$9.99", "seller": "ideaWear", "bids": 4, "end": "2025-06-17"},
     {"name": "Bluetooth-Enabled Potato", "price": "$15.00", "seller": "taterTech", "bids": 6, "end": "2025-06-15"},
-    {"name": "Reverse Gravity Boots", "price": "$250.00", "seller": "skyWalker69", "bids": 10, "end": "2025-06-14"},
+    {"name": "Reverse Gravity Boots", "price": "$250.00", "seller": "skyWalker70", "bids": 10, "end": "2025-06-14"},
     {"name": "DIY Loch Ness Detection Kit", "price": "$22.22", "seller": "cryptoHunter", "bids": 7, "end": "2025-06-18"},
     {"name": "Quantum Sock (Single)", "price": "$7.77", "seller": "uncertainApparel", "bids": 9, "end": "2025-06-20"},
 ]
