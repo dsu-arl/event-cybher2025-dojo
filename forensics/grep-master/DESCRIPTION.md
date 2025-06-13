@@ -1,9 +1,10 @@
-You have a huge text file, haystack.txt, with a flag hidden inside. Use grep to search for the flag, which starts with FLAG{.
+## Challenge Description
+You have a huge text file, `haystack.txt`, with a needle (flag) hidden inside. Use `grep` to search for the temporary flag, which looks like `FLAG{...}`. (NOTE: This is not your real flag yet!)
 
-The grep command is a tool in linux that is used to search for specific text within file, such as words, phrases or patterns.
+For more information about `grep`, you can head over to the Linux module and do the "Find the password!" challenge. For a quick refresher, `grep` is used like this: `grep {target_string} {file_to_search}`.
 
-The files that you will be working on are in the /challenge directory.
-
-Example command: grep flag <filename>.txt
-
-Once you complete at finding the flag with grep make sure to run the /challenge/verify script in the challenge folder.
+## Challenge Steps
+1. Start the challenge and open a terminal
+2. Navigate to the `/challenge` directory (use `cd /challenge`)
+3. Search through the `haystack.txt` file to find the _temporary_ flag (`FLAG{...}`)
+4. Once you've found the `FLAG`, run `/challenge/verify`, enter the temporary flag, and receive your official `pwn.college{...}` flag!
