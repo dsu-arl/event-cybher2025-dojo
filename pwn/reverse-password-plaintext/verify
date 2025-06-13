@@ -13,7 +13,7 @@ def print_flag():
 # Add your imports and other code below here
 import hashlib
 
-correctHash = "957f3e4a26bdcdeb52c6de4adde76b39"
+correctHash = "4f003a2e064ed52d03ec4a4cbb2863d7"
 
 if __name__ == "__main__":
 	guessString = input("Enter the string:").encode('utf-8')

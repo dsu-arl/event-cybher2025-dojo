@@ -1,3 +1,5 @@
+#! /usr/bin/python3.12 -I
+
 import sys
 from time import sleep
 
@@ -25,10 +27,11 @@ if __name__ == "__main__":
     numberToLetter = {i:letter for i,letter in enumerate(alphabet)}
     
     print('{:^71s}'.format("~*~*~EXAMPLE~*~*~"))
-    print("|---------------------------------------------------------------------|")
+    print(" _____________________________________________________________________ ")
+    print("|                                                                     |")
     print("| ~*~What follows is an example of how the ciphertext was created.~*~ |")
     print("|    ~*~Follow the prompts to practice generating ciphertext.~*~      |")
-    print("|---------------------------------------------------------------------|")
+    print("|_____________________________________________________________________|")
     print("\n\n")
     try:
         alphabetShift = int(input("How many characters should the alphabet shift: "))
@@ -57,11 +60,12 @@ if __name__ == "__main__":
     sleep(1)
     print("\n\n")
     print('{:^71s}'.format("~*~*~CHALLENGE~*~*~"))
-    print("|---------------------------------------------------------------------|")
+    print(" _____________________________________________________________________")
+    print("|                                                                     |")
     print("|{:^69s}|".format("The enciphered text is: 'kvndjhuhybdmypknldtbz-lybe'"))
     print("|{:^69s}|".format("Generate different alphabets to use to find the plaintext that"))
     print("|{:^69s}|".format("generates this ciphertext."))
-    print("|---------------------------------------------------------------------|")
+    print("|_____________________________________________________________________|")
 
     try:
         alphabetShift = int(input("How many characters should the alphabet shift: "))
@@ -72,3 +76,15 @@ if __name__ == "__main__":
     shiftedAlphabet = alphabet[alphabetShift:] + alphabet[:alphabetShift]
     print(f"Cipher alphabet is   : {shiftedAlphabet}")
     print(f"Plaintext alphabet is: {alphabet}")
+    
+    print("Decoding the challenge text", end="")
+
+    for i in range(0,3):
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        sleep(1)
+
+    
+    decodedText = decipher(alphabet, numberToLetter, "kvndjhuhybdmypknldtbz-lybe", alphabetShift)
+
+    print(f"\nYour decoded text is: {decodedText}")

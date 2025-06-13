@@ -44,25 +44,18 @@ def main(stringOne:list, stringTwo:list):
     
     # Contains 10 elements
     sliceOne = stringOne[0:10]
-    
+     
     # Contains 10 elements
-    sliceTwo = stringOne[10:20]
-    
-    # Contains 6 elements
-    sliceThree = stringOne[20:26]
+    sliceThree = stringOne[15:25]
     
     # Contains 10 elements
     sliceFour = stringTwo[0:10]
     
-    # Contains 2 elements
-    sliceFive = stringTwo[10:12]
 
     passwordPartOne = selectorOne(sliceOne, sliceFour)
-    passwordPartTwo = selectorOne(sliceTwo, sliceFive)
     passwordPartThree = selectorTwo(sliceThree, sliceFour)
-    passwordPartFour = selectorThree(sliceTwo, sliceFive)
 
-    finalPassword = passwordPartTwo + passwordPartFour + passwordPartOne + passwordPartThree
+    finalPassword = passwordPartOne + passwordPartThree
 
 if __name__ == "__main__":
     alphabet = list(("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"))
