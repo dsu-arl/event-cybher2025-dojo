@@ -20,4 +20,7 @@ modules:
 - id: pwn
   name: pwn
   image: whatupdoc6130/pwncollege:bufferoverflowv1
+- id: osint
+  name: OSINT
+  image: copsahl/pwncollege-web
 type: summercamp

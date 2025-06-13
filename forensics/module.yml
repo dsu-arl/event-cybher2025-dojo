@@ -1,18 +1,6 @@
 name: Forensics
 image: shawdynasty/cyberher-dojo-forensics
 challenges:
-- id: google-dorks
-  name: Google Dorks
-  allow_privileged: false
-- id: socialmediapassword
-  name: Social Media Password
-  allow_privileged: false
-- id: waybackmachinei
-  name: Wayback Machine I
-  allow_privileged: false
-- id: waybackmachineii
-  name: Wayback Machine II
-  allow_privileged: false
 - id: grep-master
   name: Grep Master
   allow_privileged: false
