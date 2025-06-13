@@ -1,39 +1,50 @@
 name: Forensics
-image: shawdynasty/cyberher-dojo-forensics
 challenges:
 - id: google-dorks
   name: Google Dorks
+  image: copsahl/pwncollege-web
   allow_privileged: false
 - id: socialmediapassword
   name: Social Media Password
+  image: copsahl/pwncollege-web
   allow_privileged: false
 - id: waybackmachinei
   name: Wayback Machine I
+  image: copsahl/pwncollege-web
   allow_privileged: false
 - id: waybackmachineii
   name: Wayback Machine II
+  image: copsahl/pwncollege-web
   allow_privileged: false
 - id: grep-master
   name: Grep Master
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: unlock-the-vault
   name: Unlock the Vault
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: locked-treasure-chest
   name: Locked Treasure Chest
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: the-artists-clue
   name: The Artist's Clue
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: code-cracker
   name: Code Cracker
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: chatty-server
   name: Chatty Server
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: secret-message-in-photo
   name: Secret Message in Photo
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
 - id: hidden-treasures-in-the-picture
   name: Hidden Treasures in the Picture
+  image: shawdynasty/cyberher-dojo-forensics
   allow_privileged: false
