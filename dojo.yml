@@ -17,3 +17,7 @@ modules:
   name: Web
 - id: python
   name: Python
+- id: pwn
+  name: pwn
+  image: whatupdoc6130/pwncollege:bufferoverflowv1
+type: summercamp
