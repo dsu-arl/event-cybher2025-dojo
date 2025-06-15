@@ -18,7 +18,9 @@ Listed below are the most helpful options for this challenge:
 - `-sf {filename}`: lets you choose the "stego file", the file with hidden data in it
 - `-xf {filepath/filename}`: lets you choose where the extracted file is saved to
 
-All together, it will look something like: `steghide --extract -p {password} -sf {suspicious_file} -xf /home/hacker/temp_flag.txt`
+All together, it will look something like: 
+
+`steghide --extract -p {password} -sf {suspicious_file} -xf /home/hacker/temp_flag.txt`
 
 **Important** - use -xf to change the output file to `/home/hacker/temp_flag.txt`. Just trust us, it will make your life easier.
 This output file contains your temporary `FLAG{...}`!
