@@ -22,7 +22,7 @@ All together, it will look something like:
 
 `steghide --extract -p {password} -sf {suspicious_file} -xf /home/hacker/temp_flag.txt`
 
-**Important** - use -xf to change the output file to `/home/hacker/temp_flag.txt`. Just trust us, it will make your life easier.
+**Important**: use `-xf` to change the output file to `/home/hacker/temp_flag.txt`. Just trust us, it will make your life easier.
 This output file contains your temporary `FLAG{...}`!
 
 ## Challenge Steps
