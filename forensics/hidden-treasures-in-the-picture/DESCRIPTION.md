@@ -11,5 +11,5 @@ You'll need to use this temporary flag to unlock your official `pwn.college` fla
 1. Navigate to the `/home/ubuntu/Hidden-Treasure-in-Picture` directory
 2. Use the tools you've learned so far to find the 4 parts! (`steghide`, `exiftool`, `binwalk`, `strings`, and `grep` may come in handy)
     Note: Make sure to use `-xf /home/hacker/extracted.txt` when using `steghide`!
-3. Put the 4 parts together to find your temporary `FLAG{...}
+3. Put the 4 parts together to find your temporary `FLAG{...}`
 4. Run `/challenge/verify`, enter your temporary flag, and receive your official `pwn.college{...}` flag!
