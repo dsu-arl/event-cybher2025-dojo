@@ -8,7 +8,7 @@ Use it like this: `strings filename.bin`
 
 Unfortunately, you'll have to do a bit more work to find the temporary `FLAG{...}`. 
 You'll need to scroll through the output from `strings` until you find this content: "Binary file FLAG starts here: ... Flag ends".
-Everything in between is your flag, but it is in hexadecimal format. You'll need to convert it back into english!
+Everything in between is your flag, but it is in hexadecimal format. You'll need to convert it back into English!
 The tools on this machine are limited, one good option is to copy the hex flag to the GUI clipboard, and use that to copy it to your laptop's web browser. 
 Go to a tool like cyberchef.com, paste that hex in, and use the Hex Decoder to get the temporary `FLAG{...}
 
