@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 # In this challenge, people will learn about using --help
 # as well as using flags with the uname command
 from os.path import exists

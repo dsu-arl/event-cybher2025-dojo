@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 import stat
 from os import makedirs, listdir, chmod
 from os.path import exists, join
@@ -45,9 +45,9 @@ def main():
 
             'mv credit_card_info.txt secret/'
 
-        Navigate to '/tmp/starthere/'. You will see three 
-        text files and three directories. Sort the text
-        files into their proper directories.
+        Navigate to '/tmp/starthere/'. If you run 'ls', you 
+        will see three text files and three directories. 
+        Sort the text files into their proper directories.
 
         Once you are done, run '/challenge/solve' to see if
         you passed!
@@ -116,7 +116,8 @@ def check_one(dirs) -> bool:
         with open('/tmp/.chall_one', 'w') as fObj:
             fObj.write('complete')
         chmod('/tmp/.chall_one', stat.S_IRWXU | stat.S_IRWXG)
-        print("Congratulations! You have successfully moved all the files into their proper directory!")
+        print("Congratulations!")
+        print("You have successfully moved all the files into their proper directories!")
         return True
 
     return False

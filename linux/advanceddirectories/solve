@@ -1,4 +1,4 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 # In this challenge we will learn mkdir(), rmdir(), and ls -a for hidden files
 from os.path import join, exists
 from os import listdir

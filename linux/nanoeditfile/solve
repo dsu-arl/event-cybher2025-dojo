@@ -1,16 +1,16 @@
-#!/opt/pwn.college/python
+#!/usr/bin/exec-suid -- /usr/bin/python3.12 -I
 from os.path import exists
 
 USERFILE = '/home/hacker/my_nano_file.txt'
-USERTEXT = "When one does not love too much, one does not love enough."
+USERTEXT = "CybHer 2025!"
 HISTORY = '/home/hacker/.bash_history'
 
 def main():
 
     if exists(USERFILE):
         with open(USERFILE, 'r') as fObj:
-            data = fObj.read()
-            if USERTEXT.lower() in data.lower():
+            data = fObj.read().strip()
+            if USERTEXT.lower().strip() == data.lower():
                 print("The file still contains the original text! Please change it!")
                 exit(0)
             else:
@@ -22,14 +22,11 @@ def main():
         exit(0)
     
 
-    with open(HISTORY, 'r') as fObj:
-        for x in fObj.readlines():
-            if 'nano' in x.split(' ')[0].strip():
-                with open('/flag', 'r') as fObj2:
-                    print(fObj2.read())
-                    exit(0)
+    with open('/flag', 'r') as fObj2:
+        print("Here's your flag:")
+        print(fObj2.read())
+        exit(0)
 
-    print("It looks like you didn't use nano to do this challenge. Please use 'nano'.")
 
 
 if __name__ == "__main__":

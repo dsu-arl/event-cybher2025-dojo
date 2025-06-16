@@ -1,0 +1,73 @@
+name: Python
+
+challenges:
+- id: running-python-programs
+  name: Running Python Programs
+  allow_privileged: false
+- id: printing
+  name: Printing Text
+  allow_privileged: false
+- id: variables
+  name: Variables
+  allow_privileged: false
+- id: format-print
+  name: Format Printing
+  allow_privileged: false
+- id: user-input
+  name: User Input
+  allow_privileged: false
+- id: type-casting
+  name: Type Casting
+  allow_privileged: false
+- id: if-statements
+  name: If Statements
+  allow_privileged: false
+- id: if-else-statements
+  name: If-Else Statements
+  allow_privileged: false
+- id: nested
+  name: Nested Conditional Statements
+  allow_privileged: false
+- id: else-if-blocks
+  name: Else-If Blocks
+  allow_privileged: false
+- id: logical-operators
+  name: Logical Operators
+  allow_privileged: false
+- id: easy-math
+  name: Easy Math!
+  allow_privileged: false
+- id: math
+  name: Math Operators
+  allow_privileged: false
+- id: floor-division
+  name: Floor Division of Two Numbers
+  allow_privileged: false
+- id: geometry
+  name: Geometry
+  allow_privileged: false
+- id: comparison
+  name: Comparison Operators
+  allow_privileged: false
+- id: while
+  name: While Loops
+  allow_privileged: false
+- id: lists
+  name: Python Lists
+  allow_privileged: false
+- id: range
+  name: Range() Function
+  allow_privileged: false
+- id: for
+  name: For Loops
+  allow_privileged: false
+- id: user-defined
+  name: User-defined Functions
+  allow_privileged: false
+- id: function-arguments
+  name: Function Arguments
+  allow_privileged: false
+- id: return-values
+  name: Function Return Values
+  allow_privileged: false
+

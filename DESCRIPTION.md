@@ -1,1 +1,1 @@
-Write your dojo description here.
+Welcome to our summer camp CTF! We suggest starting with the "Start Here!" and "Linux" dojos, and then working on whatever topics sound interesting. If you run into problems or have questions, let a camp counselor know, and we will do our best to help you out! Good luck campers!
