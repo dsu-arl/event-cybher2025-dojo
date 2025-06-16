@@ -1,1 +1,5 @@
- Hey, future cybersecurity superstars! Buckle up for an epic Capture The Flag (CTF) adventure where you’ll become a Digital Detective! In these 10 beginner-friendly challenges, you’ll solve puzzles, hunt for hidden codes (called flags that start with FLAG{), and learn awesome skills used by real cybersecurity experts. From exploring the internet to cracking secret files, each challenge is like a mini-mystery waiting for you to solve. You’ll use cool tools, learn to stay safe online, and discover how to find clues in all sorts of places. By the end, you’ll be a pro at uncovering digital secrets and protecting the online world!
+This module teaches you some basic _forensics_ tools and techniques! 
+**Digital forensics** is the process of collecting, analyzing, and preserving digital evidence from electronic devices to investigate crimes or security incidents. 
+It helps uncover what happened, how, and who was involved.
+
+In this module, you'll be looking for hidden information - usually in the form of a temporary flag that looks like this: `FLAG{...}`. Remember , this is not your official flag! You'll need to run `/challenge/verify`, enter the temporary flag, and then you will find your official `pwn.college{...}` flag.
