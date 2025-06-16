@@ -1,7 +1,7 @@
 ## Challenge Description
 You’re a detective investigating a mysterious painting, `art.jpg`, created by a secretive artist. Rumor has it they hid a flag in the image’s metadata, the hidden details that describe a file. Use the `exiftool` command to inspect the metadata and uncover the temporary flag (`FLAG{...}`)!
 
-`exiftool` is a command-line tool to view, edit, and remove metadata from files like photos, videos, and PDFs. You can view the metadate like this: `exiftool image.jpg`
+`exiftool` is a command-line tool to view, edit, and remove metadata from files like photos, videos, and PDFs. You can view the metadata like this: `exiftool image.jpg`
 
 ## Challenge Steps
 The challenge file is located in the `/home/ubuntu/Artists-Clue` directory.
