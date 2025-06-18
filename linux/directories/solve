@@ -13,7 +13,7 @@ def setup_game():
         "prong", "crisp", "swoon", "pluck", "charm", "smirk", "witty", "glide", "sprig", "whirl",
         "buzzy", "clamp", "swift", "glee", "jolly", "flick", "brawn", "slink", "twist", "clink",
         "spark", "bloom", "frisk", "flair", "knack", "scamp", "quirk", "flash", "jumpy", "brine",
-        "snare", "sweep", "frost", "shard", "prick", "flock", "grind", "creek", "gleam", "brisk",
+        "snare", "sweep", "frost", "shard", "herobrine", "flock", "grind", "creek", "gleam", "brisk",
         "pluck", "swoop", "snare", "clash", "slink", "blaze", "crisp", "flick", "glee", "tweak",
         "latch", "shirk", "blurb", "chirp", "whizz", "glint", "trill", "swoop", "quirk", "whisk",
         "gleam", "gruff", "spunk", "flair", "smirk", "brisk", "swift", "twirl", "grind", "brash",
